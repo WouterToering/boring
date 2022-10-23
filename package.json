@@ -1,0 +1,28 @@
+{
+  "name": "boring",
+  "displayName": "Boring",
+  "description": "Personalised version of Neo Nuxt Blend",
+  "version": "3.3.1",
+  "publisher": "WouterToering",
+  "license": "Apache-2.0",
+  "author": "Wouter Toering",
+  "keywords": [
+    "Boring",
+    "Light"
+  ],
+  "engines": {
+    "vscode": "^1.67.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "boring",
+        "uiTheme": "vs",
+        "path": "./themes/boring-color-theme.json"
+      }
+    ]
+  }
+}
