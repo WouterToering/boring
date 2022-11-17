@@ -36,7 +36,8 @@
       "name": "String",
       "scope": "string",
       "settings": {
-        "foreground": "#175541"
+        // "foreground": "#175541"
+        "foreground": "#1d7e66"
       }
     },
     {
@@ -53,16 +54,16 @@
         "foreground": "#f15d22"
       }
     },
-    {
-      "name": "Variable",
-      "scope": [
-        "variable.language",
-        "variable.other"
-      ],
-      "settings": {
-        "foreground": "#3d5d6b"
-      }
-    },
+    // {
+    //   "name": "Variable",
+    //   "scope": [
+    //     "variable.language",
+    //     "variable.other"
+    //   ],
+    //   "settings": {
+    //     "foreground": "#3d5d6b"
+    //   }
+    // },
     {
       "name": "Keyword",
       "scope": "keyword",
