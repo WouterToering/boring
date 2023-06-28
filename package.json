@@ -22,6 +22,11 @@
         "label": "boring",
         "uiTheme": "vs",
         "path": "./themes/boring-color-theme.json"
+      },
+      {
+        "label": "boring rose pine dawn",
+        "uiTheme": "vs",
+        "path": "./themes/boring-rose-color-theme.json"
       }
     ]
   }
