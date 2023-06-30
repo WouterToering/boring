@@ -1871,7 +1871,7 @@
     "tab.inactiveBackground": "#eee",
     "tab.inactiveForeground": "#313131",
     "tab.hoverBackground": "#dadada",
-    "editor.background": "#fbfcfe",
+    "editor.background": "#F8F9FC",
     "editor.foreground": "#222",
     "editor.lineHighlightBackground": "#F0F1F4",
     "editorIndentGuide.background": "#0002",

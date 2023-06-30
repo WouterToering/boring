@@ -1,7 +1,7 @@
 {
   "name": "boring",
   "displayName": "Boring",
-  "description": "Personalised version of Neo Nuxt Blend",
+  "description": "Boring themes",
   "version": "3.3.1",
   "publisher": "WouterToering",
   "license": "Apache-2.0",
@@ -27,6 +27,16 @@
         "label": "boring rose pine dawn",
         "uiTheme": "vs",
         "path": "./themes/boring-rose-color-theme.json"
+      },
+      {
+        "label": "boring adwaita light",
+        "uiTheme": "vs",
+        "path": "./themes/boring-adwaita-light.json"
+      },
+      {
+        "label": "boring adwaita dark",
+        "uiTheme": "vs",
+        "path": "./themes/boring-adwaita-dark.json"
       }
     ]
   }
