@@ -35,8 +35,18 @@
       },
       {
         "label": "boring adwaita dark",
-        "uiTheme": "vs",
+        "uiTheme": "vs-dark",
         "path": "./themes/boring-adwaita-dark.json"
+      },
+      {
+        "label": "boring rose pine moon",
+        "uiTheme": "vs-dark",
+        "path": "./themes/boring-rose-pine-moon.json"
+      },
+      {
+        "label": "boring gruvbox dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/boring-gruvbox-dark.json"
       }
     ]
   }
