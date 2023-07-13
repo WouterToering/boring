@@ -19,34 +19,54 @@
   "contributes": {
     "themes": [
       {
-        "label": "boring",
+        "label": "boring light",
         "uiTheme": "vs",
         "path": "./themes/boring-color-theme.json"
       },
       {
-        "label": "boring rose pine dawn",
+        "label": "boring light rose pine dawn",
         "uiTheme": "vs",
         "path": "./themes/boring-rose-color-theme.json"
       },
       {
-        "label": "boring adwaita light",
+        "label": "boring light adwaita",
         "uiTheme": "vs",
         "path": "./themes/boring-adwaita-light.json"
       },
       {
-        "label": "boring adwaita dark",
+        "label": "boring dark adwaita",
         "uiTheme": "vs-dark",
         "path": "./themes/boring-adwaita-dark.json"
       },
       {
-        "label": "boring rose pine moon",
+        "label": "boring dark rose pine moon",
         "uiTheme": "vs-dark",
         "path": "./themes/boring-rose-pine-moon.json"
+      },
+      {
+        "label": "boring dark nord",
+        "uiTheme": "vs-dark",
+        "path": "./themes/boring-nord.json"
       },
       {
         "label": "boring gruvbox dark",
         "uiTheme": "vs-dark",
         "path": "./themes/boring-gruvbox-dark.json"
+      },
+      {
+        "label": "boring solarized dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/boring-solarized-dark.json"
+      },
+      {
+        "label": "boring solarized light",
+        "uiTheme": "vs",
+        "path": "./themes/boring-solarized-light.json"
+      },
+      {
+        "label": "boring light django",
+        "uiTheme": "vs",
+        "path": "./themes/boring-django.json"
       }
     ]
   }
