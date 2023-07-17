@@ -64,6 +64,11 @@
         "path": "./themes/boring-solarized-light.json"
       },
       {
+        "label": "boring light stackoverflow",
+        "uiTheme": "vs",
+        "path": "./themes/boring-stackoverflow.json"
+      },
+      {
         "label": "boring light django",
         "uiTheme": "vs",
         "path": "./themes/boring-django.json"
