@@ -59,6 +59,16 @@
         "path": "./themes/boring-solarized-dark.json"
       },
       {
+        "label": "boring blueberry dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/boring-blueberry.json"
+      },
+      {
+        "label": "boring dark horizon",
+        "uiTheme": "vs-dark",
+        "path": "./themes/boring-dark-horizon.json"
+      },
+      {
         "label": "boring solarized light",
         "uiTheme": "vs",
         "path": "./themes/boring-solarized-light.json"

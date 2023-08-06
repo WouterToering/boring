@@ -292,7 +292,6 @@
                 "keyword.other"
             ],
             "settings": {
-                "fontStyle": "bold",
                 "foreground": "#008000"
             }
         },
@@ -328,7 +327,7 @@
                 "punctuation.separator.inheritance.php"
             ],
             "settings": {
-                "foreground": "#0000FF"
+                "foreground": "#3267c9"
             }
         },
         {
@@ -377,8 +376,7 @@
                 "entity.other.inherited-class"
             ],
             "settings": {
-                "fontStyle": "bold",
-                "foreground": "#0000FF"
+                "foreground": "#3267c9"
             }
         },
         {
@@ -392,7 +390,7 @@
                 "support.type.sys-types"
             ],
             "settings": {
-                "foreground": "#0000FF"
+                "foreground": "#3267c9"
             }
         },
         {
@@ -410,7 +408,6 @@
                 "string.regexp"
             ],
             "settings": {
-                "fontStyle": "bold",
                 "foreground": "#BB6688"
             }
         },
@@ -429,7 +426,6 @@
                 "constant.language.python"
             ],
             "settings": {
-                "fontStyle": "bold",
                 "foreground": "#008000"
             }
         },
@@ -439,7 +435,7 @@
                 "support.function.builtin.python"
             ],
             "settings": {
-                "foreground": "#0000ff"
+                "foreground": "#3267c9"
             }
         },
         {
@@ -468,7 +464,6 @@
                 "entity.name.tag"
             ],
             "settings": {
-                "fontStyle": "bold",
                 "foreground": "#008000"
             }
         },
@@ -512,7 +507,7 @@
                 "entity.other.attribute-name.class"
             ],
             "settings": {
-                "foreground": "#0000ff"
+                "foreground": "#3267c9"
             }
         },
         {
