@@ -109,7 +109,7 @@
         "breadcrumb.activeSelectionForeground": "#656d76",
         "breadcrumbPicker.background": "#ffffff",
         "editor.foreground": "#1f2328",
-        "editor.background": "#ffffff",
+        "editor.background": "#fbfcfe",
         "editorWidget.background": "#ffffff",
         "editor.foldBackground": "#6e77811a",
         "editor.lineHighlightBackground": "#eaeef280",
@@ -242,17 +242,6 @@
     },
     "tokenColors": [
         {
-            "name": "Comment",
-            "scope": [
-                "comment",
-                "punctuation.definition.comment"
-            ],
-            "settings": {
-                "fontStyle": "italic",
-                "foreground": "#408080"
-            }
-        },
-        {
             "name": "Variables, puctuation",
             "scope": [
                 "variable",
@@ -327,7 +316,7 @@
                 "punctuation.separator.inheritance.php"
             ],
             "settings": {
-                "foreground": "#3267c9"
+                "foreground": "#2852a0"
             }
         },
         {
@@ -369,6 +358,17 @@
             }
         },
         {
+            "name": "Comment",
+            "scope": [
+                "comment",
+                "punctuation.definition.comment",
+                "string.quoted.docstring.multi.python",
+            ],
+            "settings": {
+                "foreground": "#aaa"
+            }
+        },
+        {
             "name": "Class",
             "scope": [
                 "entity.name.type.class",
@@ -376,7 +376,7 @@
                 "entity.other.inherited-class"
             ],
             "settings": {
-                "foreground": "#3267c9"
+                "foreground": "#2852a0"
             }
         },
         {
@@ -390,7 +390,7 @@
                 "support.type.sys-types"
             ],
             "settings": {
-                "foreground": "#3267c9"
+                "foreground": "#2852a0"
             }
         },
         {
@@ -435,7 +435,7 @@
                 "support.function.builtin.python"
             ],
             "settings": {
-                "foreground": "#3267c9"
+                "foreground": "#2852a0"
             }
         },
         {
@@ -507,7 +507,7 @@
                 "entity.other.attribute-name.class"
             ],
             "settings": {
-                "foreground": "#3267c9"
+                "foreground": "#2852a0"
             }
         },
         {
