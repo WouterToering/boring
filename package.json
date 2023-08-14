@@ -79,6 +79,11 @@
         "path": "./themes/boring-stackoverflow.json"
       },
       {
+        "label": "boring github light",
+        "uiTheme": "vs",
+        "path": "./themes/boring-github-light.json"
+      },
+      {
         "label": "boring light django",
         "uiTheme": "vs",
         "path": "./themes/boring-django.json"
