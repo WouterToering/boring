@@ -49,17 +49,17 @@
         "path": "./themes/boring-nord.json"
       },
       {
-        "label": "boring gruvbox dark",
+        "label": "boring dark gruvbox",
         "uiTheme": "vs-dark",
         "path": "./themes/boring-gruvbox-dark.json"
       },
       {
-        "label": "boring solarized dark",
+        "label": "boring dark solarized",
         "uiTheme": "vs-dark",
         "path": "./themes/boring-solarized-dark.json"
       },
       {
-        "label": "boring blueberry dark",
+        "label": "boring dark blueberry",
         "uiTheme": "vs-dark",
         "path": "./themes/boring-blueberry.json"
       },
@@ -69,7 +69,7 @@
         "path": "./themes/boring-dark-horizon.json"
       },
       {
-        "label": "boring solarized light",
+        "label": "boring light solarized",
         "uiTheme": "vs",
         "path": "./themes/boring-solarized-light.json"
       },
@@ -79,9 +79,9 @@
         "path": "./themes/boring-stackoverflow.json"
       },
       {
-        "label": "boring github light",
+        "label": "boring light frankenstein",
         "uiTheme": "vs",
-        "path": "./themes/boring-github-light.json"
+        "path": "./themes/boring-frankenstein-light.json"
       },
       {
         "label": "boring light django",
