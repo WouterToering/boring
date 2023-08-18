@@ -79,11 +79,6 @@
         "path": "./themes/boring-stackoverflow.json"
       },
       {
-        "label": "boring light frankenstein",
-        "uiTheme": "vs",
-        "path": "./themes/boring-frankenstein-light.json"
-      },
-      {
         "label": "boring light django",
         "uiTheme": "vs",
         "path": "./themes/boring-django.json"
