@@ -82,6 +82,11 @@
         "label": "boring light django",
         "uiTheme": "vs",
         "path": "./themes/boring-django.json"
+      },
+      {
+        "label": "boring light something",
+        "uiTheme": "vs",
+        "path": "./themes/boring-something-light.json"
       }
     ]
   }
