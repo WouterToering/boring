@@ -13,7 +13,7 @@
     "badge.foreground": "#444b61",
     "breadcrumb.background": "#f6f7f9",
     "debugToolBar.background": "#f6f7f9",
-    "editor.background": "#ffffff",
+    "editor.background": "#fcfcfe",
     "editor.findMatchBackground": "#a6d2ff",
     "editor.findMatchBorder": "#00000044",
     "editor.findMatchHighlightBackground": "#fcbd3866",
@@ -27,8 +27,8 @@
     "editorGroupHeader.tabsBackground": "#ffffff",
     "editorGroupHeader.tabsBorder": "#E9EAEF",
     "editorGutter.background": "#ffffff",
-    "editorIndentGuide.activeBackground": "#aeb3c2",
-    "editorIndentGuide.background": "#E9EAEF",
+    "editorIndentGuide.activeBackground1": "#aeb3c2",
+    "editorIndentGuide.background1": "#E9EAEF",
     "editorInlayHint.background": "#fafafa",
     "editorInlayHint.foreground": "#999999",
     "editorLineNumber.activeForeground": "#767a8a",
@@ -186,7 +186,7 @@
         "string punctuation.section.embedded source"
       ],
       "settings": {
-        "foreground": "#26A1A2"
+        "foreground": "#218787"
       }
     },
     {
@@ -240,9 +240,7 @@
     {
       "scope": "carriage-return",
       "settings": {
-        "background": "#C64600",
         "foreground": "#fafbfc",
-        "content": "^M"
       }
     },
     {
@@ -263,7 +261,7 @@
         "string.regexp"
       ],
       "settings": {
-        "foreground": "#26A1A2"
+        "foreground": "#218787"
       }
     },
     {
@@ -274,7 +272,7 @@
         "string.regexp string.regexp.arbitrary-repitition"
       ],
       "settings": {
-        "foreground": "#26A1A2"
+        "foreground": "#218787"
       }
     },
     {
@@ -363,7 +361,6 @@
         "punctuation.definition.deleted"
       ],
       "settings": {
-        "background": "#ffeef0",
         "foreground": "#b31d28"
       }
     },
@@ -374,7 +371,6 @@
         "punctuation.definition.inserted"
       ],
       "settings": {
-        "background": "#f0fff4",
         "foreground": "#22863a"
       }
     },
@@ -384,7 +380,6 @@
         "punctuation.definition.changed"
       ],
       "settings": {
-        "background": "#ffebda",
         "foreground": "#444444"
       }
     },
@@ -395,7 +390,6 @@
       ],
       "settings": {
         "foreground": "#f6f8fa",
-        "background": "#0052b1"
       }
     },
     {
@@ -447,7 +441,7 @@
         "string.other.link"
       ],
       "settings": {
-        "foreground": "#26A1A2",
+        "foreground": "#218787",
         "fontStyle": "underline"
       }
     },
