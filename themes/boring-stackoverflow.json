@@ -1923,7 +1923,7 @@
     "tab.unfocusedHoverBackground": "#eaeef280",
     "tab.border": "#d0d7de",
     "tab.unfocusedActiveBorderTop": "#d0d7de00",
-    "tab.activeBorder": "#ffffff",
+    "tab.activeBorder": "#d0d7de",
     "tab.unfocusedActiveBorder": "#ffffff",
     "tab.activeBorderTop": "#fd8c7300",
     "breadcrumb.foreground": "#656d76",

@@ -84,6 +84,16 @@
         "path": "./themes/boring-django.json"
       },
       {
+        "label": "boring grueling hare",
+        "uiTheme": "vs",
+        "path": "./themes/boring-grueling-hare.json"
+      },
+      {
+        "label": "boring light boring",
+        "uiTheme": "vs",
+        "path": "./themes/boring-boring.json"
+      },
+      {
         "label": "boring light something",
         "uiTheme": "vs",
         "path": "./themes/boring-something-light.json"
