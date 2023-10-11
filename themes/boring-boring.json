@@ -211,7 +211,7 @@
               "constant.escape"
           ],
           "settings": {
-              "foreground": "#BC7A00"
+              "foreground": "#BC7A00" //"#BC7A00"
           }
       },
       {
@@ -227,7 +227,7 @@
               "meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
           ],
           "settings": {
-              "foreground": "#097C8E"
+              "foreground": "#067D17"// "#097C8E"
           }
       },
       {
