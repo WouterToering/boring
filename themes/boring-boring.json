@@ -122,7 +122,7 @@
               "punctuation"
           ],
           "settings": {
-              "foreground": "#0c4b33"
+              "foreground": "#0a0a0a"
           }
       },
       {
@@ -154,7 +154,7 @@
               "keyword.other"
           ],
           "settings": {
-              "foreground": "#666"
+              "foreground": "#555"
           }
       },
       {
@@ -227,7 +227,7 @@
               "meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
           ],
           "settings": {
-              "foreground": "#067D17"// "#097C8E"
+              "foreground": "#407a58"// "#097C8E"
           }
       },
       {
