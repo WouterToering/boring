@@ -94,6 +94,11 @@
         "path": "./themes/boring-boring.json"
       },
       {
+        "label": "boring dark boring",
+        "uiTheme": "vs",
+        "path": "./themes/boring-boring-dark.json"
+      },
+      {
         "label": "boring light something",
         "uiTheme": "vs",
         "path": "./themes/boring-something-light.json"
