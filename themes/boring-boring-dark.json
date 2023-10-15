@@ -158,7 +158,7 @@
               "constant.other.color"
           ],
           "settings": {
-              "foreground": "#ababab"
+              "foreground": "#8b94a7"
           }
       },
       {
@@ -203,7 +203,7 @@
               "meta.method-call entity.name.function"
           ],
           "settings": {
-              "foreground": "#ababab"
+              "foreground": "#8b94a7"
           }
       },
       {
@@ -216,7 +216,7 @@
               "punctuation.separator.inheritance.php"
           ],
           "settings": {
-              "foreground": "#82a2de"
+              "foreground": "#70b3f5"
           }
       },
       {
@@ -225,7 +225,7 @@
               "meta.block variable.other"
           ],
           "settings": {
-              "foreground": "#ababab"
+              "foreground": "#8b94a7"
           }
       },
       {
@@ -265,7 +265,7 @@
               "string.quoted.docstring.multi.python",
           ],
           "settings": {
-              "foreground": "#5a6477"
+              "foreground": "#606b80"
           }
       },
       {
@@ -277,7 +277,7 @@
               "meta.function-call.generic"
           ],
           "settings": {
-              "foreground": "#82a2de"
+              "foreground": "#70b3f5"
           }
       },
       {
@@ -291,7 +291,7 @@
               "support.type.sys-types"
           ],
           "settings": {
-              "foreground": "#82a2de"
+              "foreground": "#70b3f5"
           }
       },
       {
@@ -336,7 +336,7 @@
               "support.function.builtin.python"
           ],
           "settings": {
-              "foreground": "#82a2de"
+              "foreground": "#70b3f5"
           }
       },
       {
@@ -376,7 +376,7 @@
               "punctuation.definition.tag.end.html"
           ],
           "settings": {
-              "foreground": "#ababab"
+              "foreground": "#8b94a7"
           }
       },
       {
@@ -399,7 +399,7 @@
               "source.postcss support.type.property-name"
           ],
           "settings": {
-              "foreground": "#ababab"
+              "foreground": "#8b94a7"
           }
       },
       {
@@ -408,7 +408,7 @@
               "entity.other.attribute-name.class"
           ],
           "settings": {
-              "foreground": "#82a2de"
+              "foreground": "#70b3f5"
           }
       },
       {
