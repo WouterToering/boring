@@ -21,6 +21,18 @@
       {
         "label": "boring light",
         "uiTheme": "vs",
+        "path": "./themes/boring-boring.json"
+      },
+      {
+        "label": "boring dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/boring-boring-dark.json"
+      }
+    ],
+    "disabled_themes": [
+      {
+        "label": "boring light",
+        "uiTheme": "vs",
         "path": "./themes/boring-color-theme.json"
       },
       {
