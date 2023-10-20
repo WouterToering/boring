@@ -295,15 +295,6 @@
           }
       },
       {
-          "name": "Variable language this, self",
-          "scope": [
-              "variable.language"
-          ],
-          "settings": {
-              "foreground": "#008000"
-          }
-      },
-      {
           "name": "Regular Expressions",
           "scope": [
               "string.regexp"
@@ -321,15 +312,6 @@
               "foreground": "#008000"
           }
       },
-      // {
-      //     "name": "Python: True, False and None",
-      //     "scope": [
-      //         "constant.language.python"
-      //     ],
-      //     "settings": {
-      //         "foreground": "#008000"
-      //     }
-      // },
       {
           "name": "Python: Function Builtin",
           "scope": [
@@ -347,59 +329,7 @@
               "meta.function.decorator.python entity.name.function"
           ],
           "settings": {
-              "foreground": "#AA22FF"
-          }
-      },
-      {
-          "name": "Javascript: Class Component JS, React",
-          "scope": [
-              "support.class.component.js"
-          ],
-          "settings": {
-              "foreground": "#BC7A00"
-          }
-      },
-      {
-          "name": "HTML: Name Tag",
-          "scope": [
-              "entity.name.tag"
-          ],
-          "settings": {
-              "foreground": "#008000"
-          }
-      },
-      {
-          "name": "HTML: punctuation tag",
-          "scope": [
-              "punctuation.definition.tag",
-              "punctuation.definition.tag.begin.html",
-              "punctuation.definition.tag.end.html"
-          ],
-          "settings": {
-              "foreground": "#8b94a7"
-          }
-      },
-      {
-          "name": "HTML: attribute",
-          "scope": [
-              "meta.tag"
-          ],
-          "settings": {
-              "foreground": "#7D9029"
-          }
-      },
-      {
-          "name": "CSS Class and Support",
-          "scope": [
-              "source.css support.type.property-name",
-              "source.sass support.type.property-name",
-              "source.scss support.type.property-name",
-              "source.less support.type.property-name",
-              "source.stylus support.type.property-name",
-              "source.postcss support.type.property-name"
-          ],
-          "settings": {
-              "foreground": "#8b94a7"
+              "foreground": "#70b3f5"
           }
       },
       {
