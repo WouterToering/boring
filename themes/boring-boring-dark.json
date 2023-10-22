@@ -72,7 +72,7 @@
         "support.function.builtin.python"
       ],
       "settings": {
-        "foreground": "#70b3f5"
+        "foreground": "#639cc5"
       }
     },
     {
@@ -84,7 +84,7 @@
         "constant.escape"
       ],
       "settings": {
-        "foreground": "#da920b"
+        "foreground": "#c59463"
       }
     },
     {
@@ -99,7 +99,7 @@
         "meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
       ],
       "settings": {
-        "foreground": "#539d72"
+        "foreground": "#83A598"
       }
     },
     {
