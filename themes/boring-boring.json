@@ -12,7 +12,7 @@
     {
       "scope": ["constant.other.color"],
       "settings": {
-        "foreground": "#8b94a7"
+        "foreground": "#999"
       }
     },
     {
@@ -24,7 +24,7 @@
     {
       "scope": ["keyword", "storage.type", "storage.modifier", "keyword.control", "keyword.other"],
       "settings": {
-        "foreground": "#727883"
+        "foreground": "#7a7a7a"
       }
     },
     {
@@ -160,7 +160,7 @@
     "editor.findMatchBackground": "#a6d2ff",
     "editor.findMatchBorder": "#00000044",
     "editor.findMatchHighlightBackground": "#fcbd3866",
-    "editor.foreground": "#21242b",
+    "editor.foreground": "#262626",
     "editor.lineHighlightBackground": "#f5f8fe",
     "editor.selectionBackground": "#a6d2ff",
     "editor.selectionHighlightBackground": "#dddbfc7f",
