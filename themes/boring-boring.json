@@ -6,7 +6,7 @@
     {
       "scope": ["variable", "string constant.other.placeholder", "punctuation"],
       "settings": {
-        "foreground": "#282828"
+        "foreground": "#21242a"
       }
     },
     {
@@ -24,7 +24,7 @@
     {
       "scope": ["keyword", "storage.type", "storage.modifier", "keyword.control", "keyword.other"],
       "settings": {
-        "foreground": "#808a9d"
+        "foreground": "#646e82"
       }
     },
     {
@@ -109,7 +109,7 @@
         "string.quoted.docstring.multi.python"
       ],
       "settings": {
-        "foreground": "#babfca"
+        "foreground": "#a0a7b6"
       }
     },
     {
@@ -160,7 +160,7 @@
     "editor.findMatchBackground": "#a6d2ff",
     "editor.findMatchBorder": "#00000044",
     "editor.findMatchHighlightBackground": "#fcbd3866",
-    "editor.foreground": "#484848",
+    "editor.foreground": "#21242b",
     "editor.selectionBackground": "#a6d2ff",
     "editor.selectionHighlightBackground": "#dddbfc7f",
     "editor.wordHighlightBackground": "#dddbfc80",
