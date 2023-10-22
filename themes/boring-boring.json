@@ -24,7 +24,7 @@
     {
       "scope": ["keyword", "storage.type", "storage.modifier", "keyword.control", "keyword.other"],
       "settings": {
-        "foreground": "#646e82"
+        "foreground": "#727883"
       }
     },
     {
@@ -84,7 +84,7 @@
         "constant.escape"
       ],
       "settings": {
-        "foreground": "#c59463"
+        "foreground": "#d08e58"
       }
     },
     {
@@ -99,7 +99,7 @@
         "meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
       ],
       "settings": {
-        "foreground": "#83A598"
+        "foreground": "#7ea999"
       }
     },
     {
