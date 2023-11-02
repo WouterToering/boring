@@ -24,7 +24,7 @@
     {
       "scope": ["keyword", "storage.type", "storage.modifier", "keyword.control", "keyword.other"],
       "settings": {
-        "foreground": "#727883"
+        "foreground": "#5f6267"
       }
     },
     {
@@ -72,7 +72,7 @@
         "support.function.builtin.python"
       ],
       "settings": {
-        "foreground": "#639cc5"
+        "foreground": "#478cd1"
       }
     },
     {
@@ -84,7 +84,7 @@
         "constant.escape"
       ],
       "settings": {
-        "foreground": "#d08e58"
+        "foreground": "#d07543"
       }
     },
     {
@@ -99,7 +99,7 @@
         "meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
       ],
       "settings": {
-        "foreground": "#7ea999"
+        "foreground": "#6f9f8e"
       }
     },
     {
