@@ -24,7 +24,7 @@
     {
       "scope": ["keyword", "storage.type", "storage.modifier", "keyword.control", "keyword.other"],
       "settings": {
-        "foreground": "#4e6e6e" //#467878"
+        "foreground": "#5f8686" //#467878"
       }
     },
     {
