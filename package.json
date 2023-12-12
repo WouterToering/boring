@@ -16,6 +16,9 @@
   "categories": [
     "Themes"
   ],
+  "extensionKind": [
+    "ui"
+  ],
   "contributes": {
     "themes": [
       {
