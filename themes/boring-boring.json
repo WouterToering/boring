@@ -6,7 +6,7 @@
     {
       "scope": ["variable", "string constant.other.placeholder", "punctuation"],
       "settings": {
-        "foreground": "#262626"
+        "foreground": "#0a0a0a"
       }
     },
     {
@@ -24,7 +24,7 @@
     {
       "scope": ["keyword", "storage.type", "storage.modifier", "keyword.control", "keyword.other"],
       "settings": {
-        "foreground": "#566161"
+        "foreground": "#0a0a0a"
       }
     },
     {
@@ -72,7 +72,7 @@
         "support.function.builtin.python"
       ],
       "settings": {
-        "foreground": "#325CC0"
+        "foreground": "#2d4c95"
       }
     },
     {
@@ -99,7 +99,7 @@
         "meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
       ],
       "settings": {
-        "foreground": "#008000"
+        "foreground": "#006000"
       }
     },
     {
