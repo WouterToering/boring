@@ -2,6 +2,7 @@
   "$schema": "vscode://schemas/color-theme",
   "name": "boring light",
   "type": "light",
+  "include": "./light-base.json",
   "tokenColors": [
     {
       "scope": ["variable", "string constant.other.placeholder", "punctuation"],
@@ -142,60 +143,5 @@
         "foreground": "#888"
       }
     }
-  ],
-  "colors": {
-    "editor.background": "#F7F7F7",
-    "editor.foreground": "#000",
-    "editor.lineHighlightBackground": "#F0F0F0",
-    "editor.selectionBackground": "#BFDBFE",
-    "editor.selectionHighlightBackground": "#CFCFCF81",
-    "panel.background": "#F0F0F0",
-    "scrollbar.shadow": "#00000000",
-    "widget.shadow": "#00000000",
-    "sideBar.background": "#F0F0F0",
-    "editorGroupHeader.tabsBackground": "#F0F0F0",
-    "activityBar.background": "#F0F0F0",
-    "activityBar.foreground": "#007ACC",
-    "editorLineNumber.foreground": "#9DA39A",
-    "editorCursor.foreground": "#007ACC",
-    "editor.findMatchBackground": "#FFBC5D",
-    "editor.findMatchHighlightBackground": "#FFD86381",
-    "statusBar.background": "#DDDDDD",
-    "statusBar.foreground": "#474747",
-    "statusBar.debuggingBackground": "#FFBC5D",
-    "statusBar.debuggingForeground": "#000",
-    "statusBar.noFolderBackground": "#7A3E9D",
-    "statusBar.noFolderForeground": "#fff",
-
-    "list.activeSelectionBackground": "#DDDDDD",
-    "list.activeSelectionForeground": "#000000",
-    "list.inactiveSelectionBackground": "#E6E6E6",
-    "list.focusHighlightForeground": "#007ACC",
-    "focusBorder": "#CCCCCC",
-
-    "quickInputList.focusForeground": "#000000",
-    "quickInputList.focusBackground": "#DDDDDD",
-
-    "editorSuggestWidget.selectedBackground": "#DDDDDD",
-    "editorSuggestWidget.focusHighlightForeground": "#000000",
-    "editorSuggestWidget.highlightForeground": "#000000",
-    "editorSuggestWidget.selectedForeground": "#000000",
-
-    "terminal.ansiWhite": "#BBBBBB",
-    "terminal.ansiBlack": "#000000",
-    "terminal.ansiBlue": "#325CC0",
-    "terminal.ansiCyan": "#0083B2",
-    "terminal.ansiGreen": "#448C27",
-    "terminal.ansiMagenta": "#7A3E9D",
-    "terminal.ansiRed": "#AA3731",
-    "terminal.ansiYellow": "#CB9000",
-    "terminal.ansiBrightWhite": "#FFFFFF",
-    "terminal.ansiBrightBlack": "#777777",
-    "terminal.ansiBrightBlue": "#007ACC",
-    "terminal.ansiBrightCyan": "#00AACB",
-    "terminal.ansiBrightGreen": "#60CB00",
-    "terminal.ansiBrightMagenta": "#E64CE6",
-    "terminal.ansiBrightRed": "#F05050",
-    "terminal.ansiBrightYellow": "#FFBC5D"
-  }
+  ]
 }
