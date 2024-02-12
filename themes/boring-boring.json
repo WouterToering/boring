@@ -73,7 +73,7 @@
         "support.function.builtin.python"
       ],
       "settings": {
-        "foreground": "#2d4c95"
+        "foreground": "#3175bf"
       }
     },
     {
@@ -110,7 +110,7 @@
         "string.quoted.docstring.multi.python"
       ],
       "settings": {
-        "foreground": "#ababab"
+        "foreground": "#AA3731"
       }
     },
     {
