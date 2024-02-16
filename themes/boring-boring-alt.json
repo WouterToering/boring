@@ -25,14 +25,13 @@
     {
       "scope": ["keyword", "storage.type", "storage.modifier", "keyword.control", "keyword.other"],
       "settings": {
-        "foreground": "#636363"
+        "foreground": "#3377EE"
       }
     },
     {
       "scope": [
         "constant.other.color",
         "meta.tag",
-        "punctuation",
         "punctuation.definition.tag",
         "punctuation.separator.inheritance.php",
         "punctuation.definition.tag.html",
@@ -73,7 +72,7 @@
         "support.function.builtin.python"
       ],
       "settings": {
-        "foreground": "#325CC0" // "#478cd1"
+        "foreground": "#009033" // "#478cd1"
       }
     },
     {
@@ -85,32 +84,38 @@
         "constant.escape"
       ],
       "settings": {
-        "foreground": "#AA3731" //"#d07543"
+        "foreground": "#CC2299" //"#d07543"
       }
     },
-    {
-      "scope": [
-        "string",
-        "constant.other.symbol",
-        "constant.other.key",
-        "markup.heading",
-        "punctuation.definition.string.begin",
-        "punctuation.definition.string.end",
-        "markup.inserted.git_gutter",
-        "meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
-      ],
-      "settings": {
-        "foreground": "#6f9f8e"
-      }
-    },
+    // {
+    //   "scope": [
+    //     "string",
+    //     "constant.other.symbol",
+    //     "constant.other.key",
+    //     "markup.heading",
+    //     "punctuation.definition.string.begin",
+    //     "punctuation.definition.string.end",
+    //     "markup.inserted.git_gutter",
+    //     "meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
+    //   ],
+    //   "settings": {
+    //     "foreground": "#6f9f8e"
+    //   }
+    // },
     {
       "scope": [
         "comment",
         "punctuation.definition.comment",
-        "string.quoted.docstring.multi.python"
+        "comment.block.preprocessor",
+        "comment.documentation",
+        "comment.block.documentation",
+        "string.quoted.docstring.multi.python",
+        "string",
+        "string.quoted.docstring",
+        "punctuation.definition.string"
       ],
       "settings": {
-        "foreground": "#ababab"
+        "foreground": "#CC7700"
       }
     },
     {
@@ -140,7 +145,7 @@
         "support.type.property-name.json"
       ],
       "settings": {
-        "foreground": "#888"
+        "foreground": "#3377EE"
       }
     }
   ]
