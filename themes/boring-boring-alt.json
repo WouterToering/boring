@@ -10,14 +10,14 @@
       "name": "Comments",
       "scope": ["comment", "string.quoted.docstring.multi"],
       "settings": {
-        "foreground": "#8811EE"
+        "foreground": "#8437c8"
       }
     },
     {
       "name": "Strings",
       "scope": ["string"],
       "settings": {
-        "foreground": "#cc7700"
+        "foreground": "#c47608"
       }
     },
     {
@@ -32,7 +32,7 @@
         "constant.language.python"
       ],
       "settings": {
-        "foreground": "#3e7be5"
+        "foreground": "#477ddc"
       }
     },
     {
@@ -71,7 +71,7 @@
         "storage.type.function.python"
       ],
       "settings": {
-        "foreground": "#007a2b"
+        "foreground": "#116930"
       }
     },
     // {
