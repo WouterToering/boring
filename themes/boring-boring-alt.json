@@ -4,20 +4,24 @@
   "type": "light",
   "include": "./light-base.json",
   "semanticHighlighting": true,
+  "colors": {
+    "editor.background": "#fefcfb",
+    "editor.foreground": "#5c5c5c"
+  },
   "tokenColors": [
     // adds rules to the light vs rules
     {
       "name": "Comments",
       "scope": ["comment", "string.quoted.docstring.multi"],
       "settings": {
-        "foreground": "#8437c8"
+        "foreground": "#6a4da8"
       }
     },
     {
       "name": "Strings",
       "scope": ["string"],
       "settings": {
-        "foreground": "#c47608"
+        "foreground": "#b77315"
       }
     },
     {
@@ -32,30 +36,16 @@
         "constant.language.python"
       ],
       "settings": {
-        "foreground": "#2370be"
+        "foreground": "#4d83a8"
       }
     },
     {
       "name": "Numbers",
       "scope": ["constant.numeric"],
       "settings": {
-        "foreground": "#cc2299"
+        "foreground": "#b4637a"
       }
     },
-    // {
-    //   "name": "Types declaration and references, TS grammar specific",
-    //   "scope": [
-    //     "meta.type.cast.expr",
-    //     "meta.type.new.expr",
-    //     "support.constant.math",
-    //     "support.constant.dom",
-    //     "support.constant.json",
-    //     "entity.other.inherited-class"
-    //   ],
-    //   "settings": {
-    //     "foreground": "#267f99"
-    //   }
-    // },
     {
       "name": "Control flow / Special keywords",
       "scope": [
@@ -71,22 +61,9 @@
         "storage.type.function.python"
       ],
       "settings": {
-        "foreground": "#116930"
+        "foreground": "#569f8a"
       }
     },
-    // {
-    //   "name": "Variable and parameter name",
-    //   "scope": [
-    //     "variable",
-    //     "meta.definition.variable.name",
-    //     "support.variable",
-    //     "entity.name.variable",
-    //     "constant.other.placeholder" // placeholders in strings
-    //   ],
-    //   "settings": {
-    //     "foreground": "#001080"
-    //   }
-    // },
     {
       "name": "Object keys, TS grammar specific",
       "scope": ["meta.object-literal.key"],
