@@ -14,14 +14,14 @@
       "name": "Comments",
       "scope": ["comment", "string.quoted.docstring.multi"],
       "settings": {
-        "foreground": "#6a4da8"
+        "foreground": "#6F42C1"
       }
     },
     {
       "name": "Strings",
       "scope": ["string"],
       "settings": {
-        "foreground": "#b77315"
+        "foreground": "#2d9a7b"
       }
     },
     {
@@ -36,14 +36,14 @@
         "constant.language.python"
       ],
       "settings": {
-        "foreground": "#4d83a8"
+        "foreground": "#0d5eba"
       }
     },
     {
       "name": "Numbers",
       "scope": ["constant.numeric"],
       "settings": {
-        "foreground": "#b4637a"
+        "foreground": "#c40e93"
       }
     },
     {
@@ -61,7 +61,7 @@
         "storage.type.function.python"
       ],
       "settings": {
-        "foreground": "#569f8a"
+        "foreground": "#ba5d3b" // ba3b45
       }
     },
     {
