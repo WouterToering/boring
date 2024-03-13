@@ -21,7 +21,7 @@
       "name": "Strings",
       "scope": ["string"],
       "settings": {
-        "foreground": "#2d9a7b"
+        "foreground": "#567a0d"
       }
     },
     {
@@ -36,7 +36,7 @@
         "constant.language.python"
       ],
       "settings": {
-        "foreground": "#0d5eba"
+        "foreground": "#015493"
       }
     },
     {
@@ -58,10 +58,11 @@
         "entity.name.operator",
         "keyword.operator",
         "storage.type.function.async",
-        "storage.type.function.python"
+        "storage.type.function.python",
+        "storage.type.class"
       ],
       "settings": {
-        "foreground": "#ba5d3b" // ba3b45
+        "foreground": "#b75301" // ba3b45
       }
     },
     {

@@ -24,114 +24,17 @@
       {
         "label": "boring light",
         "uiTheme": "vs",
-        "path": "./themes/boring-boring.json"
-      },
-      {
-        "label": "boring light alt",
-        "uiTheme": "vs",
-        "path": "./themes/boring-boring-alt.json"
-      },
-      {
-        "label": "boring light alt 2",
-        "uiTheme": "vs",
-        "path": "./themes/boring-boring-alt2.json"
-      },
-      {
-        "label": "boring light alt 3",
-        "uiTheme": "vs",
-        "path": "./themes/boring-color-theme.json"
-      },
-      {
-        "label": "boring dark",
-        "uiTheme": "vs-dark",
-        "path": "./themes/boring-boring-dark.json"
-      }
-    ],
-    "disabled_themes": [
-      {
-        "label": "boring light",
-        "uiTheme": "vs",
-        "path": "./themes/boring-color-theme.json"
-      },
-      {
-        "label": "boring light rose pine dawn",
-        "uiTheme": "vs",
-        "path": "./themes/boring-rose-color-theme.json"
-      },
-      {
-        "label": "boring light adwaita",
-        "uiTheme": "vs",
-        "path": "./themes/boring-adwaita-light.json"
-      },
-      {
-        "label": "boring dark adwaita",
-        "uiTheme": "vs-dark",
-        "path": "./themes/boring-adwaita-dark.json"
-      },
-      {
-        "label": "boring dark rose pine moon",
-        "uiTheme": "vs-dark",
-        "path": "./themes/boring-rose-pine-moon.json"
-      },
-      {
-        "label": "boring dark nord",
-        "uiTheme": "vs-dark",
-        "path": "./themes/boring-nord.json"
-      },
-      {
-        "label": "boring dark gruvbox",
-        "uiTheme": "vs-dark",
-        "path": "./themes/boring-gruvbox-dark.json"
-      },
-      {
-        "label": "boring dark solarized",
-        "uiTheme": "vs-dark",
-        "path": "./themes/boring-solarized-dark.json"
-      },
-      {
-        "label": "boring dark blueberry",
-        "uiTheme": "vs-dark",
-        "path": "./themes/boring-blueberry.json"
-      },
-      {
-        "label": "boring dark horizon",
-        "uiTheme": "vs-dark",
-        "path": "./themes/boring-dark-horizon.json"
-      },
-      {
-        "label": "boring light solarized",
-        "uiTheme": "vs",
-        "path": "./themes/boring-solarized-light.json"
+        "path": "./themes/boring-light.json"
       },
       {
         "label": "boring light stackoverflow",
         "uiTheme": "vs",
-        "path": "./themes/boring-stackoverflow.json"
+        "path": "./themes/boring-light-stackoverflow.json"
       },
       {
-        "label": "boring light django",
-        "uiTheme": "vs",
-        "path": "./themes/boring-django.json"
-      },
-      {
-        "label": "boring grueling hare",
-        "uiTheme": "vs",
-        "path": "./themes/boring-grueling-hare.json"
-      },
-      {
-        "label": "boring light boring",
-        "uiTheme": "vs",
-        "path": "./themes/boring-boring.json"
-      },
-      {
-        "label": "boring dark boring",
-        "uiTheme": "vs",
-        "path": "./themes/boring-boring-dark.json"
-      },
-      {
-        "label": "boring light something",
-        "uiTheme": "vs",
-        "path": "./themes/boring-something-light.json"
+        "label": "boring dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/boring-dark-dark.json"
       }
     ]
   }
