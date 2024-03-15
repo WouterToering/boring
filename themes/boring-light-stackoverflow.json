@@ -5,7 +5,7 @@
   "include": "./light-base.json",
   "semanticHighlighting": true,
   "colors": {
-    "editor.background": "#fefcfb",
+    "editor.background": "#fafafa",
     "editor.foreground": "#5c5c5c"
   },
   "tokenColors": [
@@ -33,7 +33,8 @@
         "source.powershell variable.other.member",
         "entity.name.type",
         "constant.language.go",
-        "constant.language.python"
+        "constant.language.python",
+        "meta.function-call.generic.python"
       ],
       "settings": {
         "foreground": "#015493"

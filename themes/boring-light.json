@@ -5,7 +5,7 @@
   "include": "./light-base.json",
   "semanticHighlighting": true,
   "colors": {
-    "editor.background": "#fefcfb",
+    "editor.background": "#fafafa",
     "editor.foreground": "#5c5c5c"
   },
   "tokenColors": [
@@ -21,7 +21,7 @@
       "name": "Strings",
       "scope": ["string"],
       "settings": {
-        "foreground": "#2d9a7b"
+        "foreground": "#259877"
       }
     },
     {
@@ -33,17 +33,18 @@
         "source.powershell variable.other.member",
         "entity.name.type",
         "constant.language.go",
-        "constant.language.python"
+        "constant.language.python",
+        "meta.function-call.generic.python"
       ],
       "settings": {
-        "foreground": "#0d5eba"
+        "foreground": "#255198"
       }
     },
     {
       "name": "Numbers",
       "scope": ["constant.numeric"],
       "settings": {
-        "foreground": "#c40e93"
+        "foreground": "#d52a2a"
       }
     },
     {
@@ -62,7 +63,7 @@
         "storage.type.class"
       ],
       "settings": {
-        "foreground": "#ba5d3b" // ba3b45
+        "foreground": "#984925" // ba3b45
       }
     },
     {
