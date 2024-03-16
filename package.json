@@ -27,14 +27,9 @@
         "path": "./themes/boring-light.json"
       },
       {
-        "label": "boring light stackoverflow",
-        "uiTheme": "vs",
-        "path": "./themes/boring-light-stackoverflow.json"
-      },
-      {
         "label": "boring dark",
         "uiTheme": "vs-dark",
-        "path": "./themes/boring-dark-dark.json"
+        "path": "./themes/boring-dark.json"
       }
     ]
   }

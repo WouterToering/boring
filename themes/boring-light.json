@@ -9,12 +9,11 @@
     "editor.foreground": "#5c5c5c"
   },
   "tokenColors": [
-    // adds rules to the light vs rules
     {
       "name": "Comments",
       "scope": ["comment", "string.quoted.docstring.multi"],
       "settings": {
-        "foreground": "#6F42C1"
+        "foreground": "#5B32B1"
       }
     },
     {
@@ -37,14 +36,14 @@
         "meta.function-call.generic.python"
       ],
       "settings": {
-        "foreground": "#255198"
+        "foreground": "#0646A4"
       }
     },
     {
       "name": "Numbers",
       "scope": ["constant.numeric"],
       "settings": {
-        "foreground": "#d52a2a"
+        "foreground": "#F59246"
       }
     },
     {
@@ -63,7 +62,7 @@
         "storage.type.class"
       ],
       "settings": {
-        "foreground": "#984925" // ba3b45
+        "foreground": "#C81F29" // #8A3100
       }
     },
     {
