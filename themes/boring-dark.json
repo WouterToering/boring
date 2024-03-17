@@ -2,6 +2,7 @@
   "$schema": "vscode://schemas/color-theme",
   "name": "boring dark",
   "type": "dark",
+  "semanticHighlighting": true,
   "tokenColors": [
     {
       "name": "Comments",
@@ -157,7 +158,7 @@
     "editor.findMatchBackground": "#42557b",
     "editor.findMatchBorder": "#457dff",
     "editor.findMatchHighlightBackground": "#6199ff2f",
-    "editor.foreground": "#d7d9e0",
+    "editor.foreground": "#d7d9e0d1",
     "editorBracketHighlight.foreground1": "#d19a66",
     "editorBracketHighlight.foreground2": "#c678dd",
     "editorBracketHighlight.foreground3": "#56b6c2",
