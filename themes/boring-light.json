@@ -6,21 +6,21 @@
   "semanticHighlighting": true,
   "colors": {
     "editor.background": "#fafafa",
-    "editor.foreground": "#5c5c5c"
+    "editor.foreground": "#24292E"
   },
   "tokenColors": [
     {
       "name": "Comments",
       "scope": ["comment", "string.quoted.docstring.multi"],
       "settings": {
-        "foreground": "#5B32B1"
+        "foreground": "#512d9f"
       }
     },
     {
       "name": "Strings",
       "scope": ["string"],
       "settings": {
-        "foreground": "#259877"
+        "foreground": "#0C9671"
       }
     },
     {
@@ -30,20 +30,24 @@
         "support.function",
         "support.constant.handlebars",
         "source.powershell variable.other.member",
-        "entity.name.type",
-        "constant.language.go",
-        "constant.language.python",
         "meta.function-call.generic.python"
       ],
       "settings": {
-        "foreground": "#256a98"
+        "foreground": "#0c4b97"
+      }
+    },
+    {
+      "name": "Type hints",
+      "scope": [],
+      "settings": {
+        "foreground": "#FF0000"
       }
     },
     {
       "name": "Numbers",
       "scope": ["constant.numeric"],
       "settings": {
-        "foreground": "#F59246"
+        "foreground": "#970c1a"
       }
     },
     {
@@ -59,10 +63,11 @@
         "keyword.operator",
         "storage.type.function.async",
         "storage.type.function.python",
-        "storage.type.class"
+        "storage.type.class",
+        "punctuation"
       ],
       "settings": {
-        "foreground": "#C81F29" // #8A3100
+        "foreground": "#576a7f"
       }
     },
     {
@@ -123,12 +128,6 @@
       "scope": ["keyword.operator.or.regexp", "keyword.control.anchor.regexp"],
       "settings": {
         "foreground": "#EE0000"
-      }
-    },
-    {
-      "scope": ["constant.character", "constant.other.option"],
-      "settings": {
-        "foreground": "#754400"
       }
     },
     {
