@@ -5,7 +5,7 @@
   "include": "./light-base.json",
   "semanticHighlighting": true,
   "colors": {
-    "editor.background": "#fafafa",
+    "editor.background": "#fdfdfd",
     "editor.foreground": "#24292E"
   },
   "tokenColors": [
@@ -33,14 +33,15 @@
         "meta.function-call.generic.python"
       ],
       "settings": {
-        "foreground": "#0c4b97"
+        // "foreground": "#0a5fae"
+        "fontStyle": "bold"
       }
     },
     {
       "name": "Type hints",
-      "scope": [],
+      "scope": ["constant.language"],
       "settings": {
-        "foreground": "#FF0000"
+        "foreground": "#074988"
       }
     },
     {
@@ -67,7 +68,8 @@
         "punctuation"
       ],
       "settings": {
-        "foreground": "#576a7f"
+        "foreground": "#2B343F"
+        // "foreground": "#576a7f"
       }
     },
     {
