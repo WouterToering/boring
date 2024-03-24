@@ -124,7 +124,7 @@
     "statusBarItem.prominentBackground": "#e8eaed",
     "tab.activeBackground": "#ffffff",
     "tab.activeBorder": "#ffffff",
-    "tab.activeBorderTop": "#f9826c",
+    "tab.activeBorderTop": "#f9826c00",
     "tab.activeForeground": "#2f363d",
     "tab.border": "#e1e4e8",
     "tab.hoverBackground": "#ffffff",

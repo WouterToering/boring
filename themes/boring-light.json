@@ -5,6 +5,9 @@
   "include": "./light-base.json",
   // "semanticHighlighting": true,
   "colors": {
+    "tab.activeBackground": "#fbfbfb",
+    "tab.activeBorder": "#fbfbfb",
+    "tab.hoverBackground": "#fbfbfb",
     "editor.background": "#fbfbfb",
     "editor.foreground": "#24292E"
   },
@@ -18,7 +21,7 @@
     },
     {
       "name": "Strings",
-      "scope": ["string"],
+      "scope": ["string", "entity.name.import.go"],
       "settings": {
         "foreground": "#0C9671"
       }
@@ -35,14 +38,14 @@
         "meta.function-call.generic"
       ],
       "settings": {
-        "foreground": "#0c4697"
+        "foreground": "#0451A5"
       }
     },
     {
       "name": "Numbers",
       "scope": ["constant.numeric", "constant.language"],
       "settings": {
-        "foreground": "#0c9297"
+        "foreground": "#955404"
       }
     },
     {
