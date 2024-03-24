@@ -16,7 +16,7 @@
       "name": "Comments",
       "scope": ["comment", "string.quoted.docstring.multi"],
       "settings": {
-        "foreground": "#5931af"
+        "foreground": "#8265c0"
       }
     },
     {
@@ -38,7 +38,8 @@
         "meta.function-call.generic"
       ],
       "settings": {
-        "foreground": "#07a"
+        // "foreground": "#07a"
+        "foreground": "#0062a8"
       }
     },
     {
@@ -46,6 +47,13 @@
       "scope": ["constant.numeric", "constant.language"],
       "settings": {
         "foreground": "#B2503C"
+      }
+    },
+    {
+      "name": "Control flow",
+      "scope": ["keyword.control", "storage.type.function", "keyword.function"],
+      "settings": {
+        "foreground": "#5c6975" // 515c67
       }
     },
     {
