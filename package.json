@@ -27,6 +27,11 @@
         "path": "./themes/boring-light.json"
       },
       {
+        "label": "boring light alt",
+        "uiTheme": "vs",
+        "path": "./themes/boring-light-alt.json"
+      },
+      {
         "label": "boring dark",
         "uiTheme": "vs-dark",
         "path": "./themes/boring-dark.json"

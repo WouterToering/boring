@@ -1,6 +1,6 @@
 {
   "$schema": "vscode://schemas/color-theme",
-  "name": "boring light",
+  "name": "boring light alt",
   "type": "light",
   "include": "./light-base.json",
   // "semanticHighlighting": true,
@@ -23,7 +23,7 @@
       "name": "Strings",
       "scope": ["string", "entity.name.import.go"],
       "settings": {
-        "foreground": "#0C9671"
+        "foreground": "#28916B"
       }
     },
     {
@@ -38,14 +38,14 @@
         "meta.function-call.generic"
       ],
       "settings": {
-        "foreground": "#0451A5"
+        "foreground": "#07a"
       }
     },
     {
       "name": "Numbers",
       "scope": ["constant.numeric", "constant.language"],
       "settings": {
-        "foreground": "#955404"
+        "foreground": "#B2503C"
       }
     },
     {
