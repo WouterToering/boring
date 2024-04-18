@@ -8,6 +8,7 @@
     "tab.activeBackground": "#F7F7F7", // F7F7F7
     "tab.activeBorder": "#F7F7F7",
     "tab.hoverBackground": "#F7F7F7",
+    "editor.lineHighlightBackground": "#fcfcfc",
     "editor.background": "#F7F7F7",
     "editor.foreground": "#1b1b1b" // 24292E
   },
@@ -16,7 +17,7 @@
       "name": "Comments",
       "scope": ["comment", "string.quoted.docstring.multi"],
       "settings": {
-        "foreground": "#4d2b97"
+        "foreground": "#888" // 006c8a
       }
     },
     {
@@ -30,7 +31,8 @@
       "name": "Function declarations",
       "scope": ["support.function", "entity.name", "meta.function-call.generic"],
       "settings": {
-        "foreground": "#0069c2"
+        "foreground": "#000000",
+        "fontStyle": "bold"
       }
     },
     {
@@ -38,6 +40,22 @@
       "scope": ["constant.numeric", "constant.language"],
       "settings": {
         "foreground": "#d30038"
+      }
+    },
+    {
+      "name": "Control flow",
+      "scope": [
+        "keyword.control",
+        "storage.type.function",
+        "keyword.function",
+        "keyword.operator",
+        "keyword.type",
+        "keyword.var",
+        "keyword.struct",
+        "storage.type.class.python"
+      ],
+      "settings": {
+        "foreground": "#005299" // 515c67
       }
     },
     {

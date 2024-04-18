@@ -8,7 +8,7 @@
       "name": "Comments",
       "scope": ["comment", "string.quoted.docstring.multi"],
       "settings": {
-        "foreground": "#c9b7eb"
+        "foreground": "#768593"
       }
     },
     {
@@ -30,28 +30,37 @@
         "meta.function-call.generic"
       ],
       "settings": {
-        "foreground": "#5ba3f1"
+        "foreground": "#b8bfc7", // 5ba3f1
+        "fontStyle": "bold"
       }
     },
     {
       "name": "Numbers",
       "scope": ["constant.numeric", "constant.language"],
       "settings": {
-        "foreground": "#ddb078"
+        "foreground": "#ce5071"
       }
     },
     {
       "name": "Control flow",
-      "scope": ["keyword.control", "storage.type.function", "keyword.function", "keyword.operator"],
+      "scope": [
+        "keyword.control",
+        "storage.type.function",
+        "keyword.function",
+        "keyword.operator",
+        "keyword.type",
+        "keyword.var",
+        "keyword.struct"
+      ],
       "settings": {
-        "foreground": "#929eaa" // 515c67
+        "foreground": "#679cd5" // 515c67
       }
     },
     {
       "name": "JSON Key - Level 0",
       "scope": ["source.json meta.structure.dictionary.json support.type.property-name.json"],
       "settings": {
-        "foreground": "#a1abb5"
+        "foreground": "#b8bfc7"
       }
     }
   ],
