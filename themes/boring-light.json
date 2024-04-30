@@ -5,12 +5,14 @@
   "include": "./light-base.json",
   // "semanticHighlighting": true,
   "colors": {
-    "tab.activeBackground": "#F7F7F7", // F7F7F7
-    "tab.activeBorder": "#F7F7F7",
-    "tab.hoverBackground": "#F7F7F7",
-    "editor.lineHighlightBackground": "#fcfcfc",
-    "editor.background": "#F7F7F7",
-    "editor.foreground": "#1b1b1b" // 24292E
+    "tab.activeBackground": "#fcfcfc", // F7F7F7
+    "tab.activeBorder": "#fcfcfc",
+    // "tab.hoverBackground": "#fcfcfc",
+    // "editor.lineHighlightBackground": "#fcfcfc",
+    "editor.background": "#fcfcfc",
+    "editor.foreground": "#2b2b2b",
+    "breadcrumb.background": "#fcfcfc"
+    // "editor.foreground": "#1b1b1b" // 24292E
   },
   "tokenColors": [
     {
