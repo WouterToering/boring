@@ -4,16 +4,6 @@
   "type": "light",
   "include": "./light-base.json",
   // "semanticHighlighting": true,
-  "colors": {
-    "tab.activeBackground": "#fcfcfc", // F7F7F7
-    "tab.activeBorder": "#fcfcfc",
-    // "tab.hoverBackground": "#fcfcfc",
-    // "editor.lineHighlightBackground": "#fcfcfc",
-    "editor.background": "#fcfcfc",
-    "editor.foreground": "#2b2b2b",
-    "breadcrumb.background": "#fcfcfc"
-    // "editor.foreground": "#1b1b1b" // 24292E
-  },
   "tokenColors": [
     {
       "name": "Comments",
@@ -41,7 +31,7 @@
       "name": "Numbers",
       "scope": ["constant.numeric", "constant.language"],
       "settings": {
-        "foreground": "#d30038"
+        "foreground": "#b30030"
       }
     },
     {

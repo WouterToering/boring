@@ -10,6 +10,10 @@
     "activityBarBadge.background": "#282828",
     "activityBar.foreground": "#282828",
 
+    "breadcrumb.background": "#fcfcfc",
+
+    "editor.background": "#fcfcfc",
+    "editor.foreground": "#2b2b2b",
     "editor.lineHighlightBackground": "#EEF5FE",
 
     "editorGroup.border": "#C2C2C3",
@@ -44,7 +48,7 @@
     "panelTitle.activeForeground": "#282828",
     "panelTitle.inactiveForeground": "#242424",
 
-    "terminal.background": "#fcfcfc",
+    "terminal.background": "#f5f5f5",
     "terminal.border": "#C2C2C3",
 
     "selection.background": "#B3D7FF",
@@ -61,7 +65,8 @@
     "statusBar.noFolderBackground": "#ECECEC",
     "statusBar.debuggingBackground": "#322d2d",
 
-    "tab.activeBorder": "#ffffff",
+    "tab.activeBackground": "#fcfcfc", // F7F7F7
+    "tab.activeBorder": "#fcfcfc",
     "tab.border": "#C2C2C3",
     "tab.inactiveBackground": "#E8E8E9",
     "tab.inactiveForeground": "#242424",
