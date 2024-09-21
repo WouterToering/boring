@@ -31,7 +31,7 @@
       "name": "Numbers",
       "scope": ["constant.numeric", "constant.language"],
       "settings": {
-        "foreground": "#b30030"
+        "foreground": "#cf222e"
       }
     },
     {
@@ -47,7 +47,7 @@
         "storage.type.class.python"
       ],
       "settings": {
-        "foreground": "#005299" // 515c67
+        "foreground": "#0550ae" // 515c67
       }
     },
     {
