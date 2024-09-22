@@ -9,7 +9,7 @@
       "name": "Comments",
       "scope": ["comment", "string.quoted.docstring.multi"],
       "settings": {
-        "foreground": "#888" // 006c8a
+        "foreground": "#777" // 7c43b1
       }
     },
     {
@@ -23,15 +23,15 @@
       "name": "Function declarations",
       "scope": ["support.function", "entity.name", "meta.function-call.generic"],
       "settings": {
-        "foreground": "#000000",
+        "foreground": "#000",
         "fontStyle": "bold"
       }
     },
     {
       "name": "Numbers",
-      "scope": ["constant.numeric", "constant.language"],
+      "scope": ["constant.numeric", "constant.language", "keyword.other.unit.hexadecimal"],
       "settings": {
-        "foreground": "#cf222e"
+        "foreground": "#099"
       }
     },
     {
@@ -47,7 +47,7 @@
         "storage.type.class.python"
       ],
       "settings": {
-        "foreground": "#0550ae" // 515c67
+        "foreground": "#053c8f" // 515c67
       }
     },
     {
