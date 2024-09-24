@@ -4,25 +4,29 @@
   "type": "light",
   "include": "./light-base.json",
   // "semanticHighlighting": true,
+  "colors": {
+    "editor.foreground": "#2D2D2D"
+  },
   "tokenColors": [
     {
       "name": "Comments",
       "scope": ["comment", "string.quoted.docstring.multi"],
       "settings": {
-        "foreground": "#777" // 7c43b1
+        "foreground": "#888" // 7c43b1
       }
     },
     {
       "name": "Strings",
       "scope": ["string", "entity.name.import.go"],
       "settings": {
-        "foreground": "#007936"
+        "foreground": "#335F11"
       }
     },
     {
       "name": "Function declarations",
-      "scope": ["support.function", "entity.name", "meta.function-call.generic"],
+      "scope": ["support.function", "entit2y.name", "meta.function-call.generic"],
       "settings": {
+        // "foreground": "#398EB1",
         "foreground": "#000",
         "fontStyle": "bold"
       }
@@ -31,7 +35,7 @@
       "name": "Numbers",
       "scope": ["constant.numeric", "constant.language", "keyword.other.unit.hexadecimal"],
       "settings": {
-        "foreground": "#099"
+        "foreground": "#9C5A6F"
       }
     },
     {
@@ -47,7 +51,7 @@
         "storage.type.class.python"
       ],
       "settings": {
-        "foreground": "#053c8f" // 515c67
+        "foreground": "#196B99" // 515c67
       }
     },
     {
