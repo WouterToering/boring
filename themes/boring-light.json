@@ -3,10 +3,7 @@
   "name": "boring light",
   "type": "light",
   "include": "./light-base.json",
-  // "semanticHighlighting": true,
-  "colors": {
-    "editor.foreground": "#2D2D2D"
-  },
+  "colors": {},
   "tokenColors": [
     {
       "name": "Comments",
@@ -19,7 +16,7 @@
       "name": "Strings",
       "scope": ["string", "entity.name.import.go"],
       "settings": {
-        "foreground": "#335F11"
+        "foreground": "#23805e"
       }
     },
     {
@@ -27,15 +24,15 @@
       "scope": ["support.function", "entit2y.name", "meta.function-call.generic"],
       "settings": {
         // "foreground": "#398EB1",
-        "foreground": "#000",
-        "fontStyle": "bold"
+        "foreground": "#000"
+        // "fontStyle": "bold"
       }
     },
     {
       "name": "Numbers",
       "scope": ["constant.numeric", "constant.language", "keyword.other.unit.hexadecimal"],
       "settings": {
-        "foreground": "#9C5A6F"
+        "foreground": "#B2503C"
       }
     },
     {
@@ -51,7 +48,7 @@
         "storage.type.class.python"
       ],
       "settings": {
-        "foreground": "#196B99" // 515c67
+        "foreground": "#0062a8" // 515c67 - 155b84
       }
     },
     {
