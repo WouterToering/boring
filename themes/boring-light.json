@@ -11,14 +11,14 @@
       "name": "Comments",
       "scope": ["comment", "string.quoted.docstring.multi"],
       "settings": {
-        "foreground": "#818181" // 7c43b1
+        "foreground": "#947D0F" // 7c43b1
       }
     },
     {
       "name": "Strings",
       "scope": ["string", "entity.name.import.go"],
       "settings": {
-        "foreground": "#097217"
+        "foreground": "#0C751A"
       }
     },
     {
@@ -26,7 +26,7 @@
       "scope": ["support.function", "entit2y.name", "meta.function-call.generic"],
       "settings": {
         // "foreground": "#398EB1",
-        "foreground": "#00566F"
+        "foreground": "#00576E"
         // "fontStyle": "bold"
       }
     },
@@ -34,7 +34,7 @@
       "name": "Numbers",
       "scope": ["constant.numeric", "constant.language", "keyword.other.unit.hexadecimal"],
       "settings": {
-        "foreground": "#1746E8"
+        "foreground": "#1646E8"
       }
     },
     {
