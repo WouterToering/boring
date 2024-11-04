@@ -11,7 +11,7 @@
       "name": "Comments",
       "scope": ["comment", "string.quoted.docstring.multi"],
       "settings": {
-        "foreground": "#947D0F" // 7c43b1
+        "foreground": "#888" // 7c43b1
       }
     },
     {
