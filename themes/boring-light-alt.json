@@ -5,6 +5,7 @@
   "include": "./light-base.json",
   "colors": {
     "editor.foreground": "#3C3836",
+    "editor.background": "#f8f8fa",
 
     "terminal.foreground": "#3C3836",
     "terminal.ansiBlack": "#24292f",
@@ -36,23 +37,21 @@
       "name": "Strings",
       "scope": ["string", "entity.name.import.go"],
       "settings": {
-        "foreground": "#427B58"
+        "foreground": "#427B58" // 004B20
       }
     },
     {
       "name": "Function declarations",
-      "scope": ["support.function", "entit2y.name", "meta.function-call.generic"],
+      "scope": ["support.function", "entity.name", "meta.function-call.generic"],
       "settings": {
-        // "foreground": "#398EB1",
-        "foreground": "#005c9d" // 5F819D
-        // "fontStyle": "bold"
+        "foreground": "#085a95" // 5F819D
       }
     },
     {
       "name": "Numbers",
       "scope": ["constant.numeric", "constant.language", "keyword.other.unit.hexadecimal"],
       "settings": {
-        "foreground": "#b07619"
+        "foreground": "#007aa3"
       }
     },
     {
@@ -61,14 +60,14 @@
         "keyword.control",
         "storage.type.function",
         "keyword.function",
-        "keyword.operator",
+        // "keyword.operator",
         "keyword.type",
         "keyword.var",
         "keyword.struct",
         "storage.type.class.python"
       ],
       "settings": {
-        "foreground": "#9D0006" // 515c67 - 155b84
+        "fontStyle": "bold"
       }
     },
     {
