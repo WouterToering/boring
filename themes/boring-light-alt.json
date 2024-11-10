@@ -4,7 +4,7 @@
   "type": "light",
   "include": "./light-base.json",
   "colors": {
-    "editor.foreground": "#3C3836",
+    "editor.foreground": "#1c1c1c",
     "editor.background": "#f8f8fa",
 
     "terminal.foreground": "#3C3836",
@@ -37,21 +37,21 @@
       "name": "Strings",
       "scope": ["string", "entity.name.import.go"],
       "settings": {
-        "foreground": "#427B58" // 004B20
+        "foreground": "#006b42" // 004B20
       }
     },
     {
       "name": "Function declarations",
       "scope": ["support.function", "entity.name", "meta.function-call.generic"],
       "settings": {
-        "foreground": "#085a95" // 5F819D
+        "foreground": "#00666b" // 5F819D
       }
     },
     {
       "name": "Numbers",
       "scope": ["constant.numeric", "constant.language", "keyword.other.unit.hexadecimal"],
       "settings": {
-        "foreground": "#007aa3"
+        "foreground": "#00406b"
       }
     },
     {
