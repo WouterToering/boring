@@ -4,37 +4,55 @@
   "type": "light",
   "include": "./light-base.json",
   "colors": {
-    "editor.foreground": "#000"
+    "editor.foreground": "#14161A",
+    "editor.background": "#f8f8fa",
+
+    "terminal.foreground": "#3C3836",
+    "terminal.ansiBlack": "#24292f",
+    "terminal.ansiRed": "#9D0006",
+    "terminal.ansiGreen": "#427B58",
+    "terminal.ansiYellow": "#b07619",
+    "terminal.ansiBlue": "#005c9d",
+    "terminal.ansiMagenta": "#8250df",
+    "terminal.ansiCyan": "#1b7c83",
+    "terminal.ansiWhite": "#6e7781",
+    "terminal.ansiBrightBlack": "#24292f",
+    "terminal.ansiBrightRed": "#9D0006",
+    "terminal.ansiBrightGreen": "#427B58",
+    "terminal.ansiBrightYellow": "#B57614",
+    "terminal.ansiBrightBlue": "#005c9d",
+    "terminal.ansiBrightMagenta": "#8250df",
+    "terminal.ansiBrightCyan": "#1b7c83",
+    "terminal.ansiBrightWhite": "#6e7781"
   },
   "tokenColors": [
     {
       "name": "Comments",
       "scope": ["comment", "string.quoted.docstring.multi"],
       "settings": {
-        "foreground": "#888" // 7c43b1
+        "foreground": "#696c76" // 7c43b1
       }
     },
     {
       "name": "Strings",
       "scope": ["string", "entity.name.import.go"],
       "settings": {
-        "foreground": "#0C751A"
+        "foreground": "#004B20" // 004B20
       }
     },
     {
       "name": "Function declarations",
-      "scope": ["support.function", "entit2y.name", "meta.function-call.generic"],
+      "scope": ["support.function", "entity.name", "meta.function-call.generic"],
       "settings": {
-        // "foreground": "#398EB1",
-        "foreground": "#00576E"
-        // "fontStyle": "bold"
+        // "foreground": "#006868"
+        "fontStyle": "bold"
       }
     },
     {
       "name": "Numbers",
       "scope": ["constant.numeric", "constant.language", "keyword.other.unit.hexadecimal"],
       "settings": {
-        "foreground": "#1646E8"
+        "foreground": "#006868"
       }
     },
     {
@@ -43,14 +61,15 @@
         "keyword.control",
         "storage.type.function",
         "keyword.function",
-        "keyword.operator",
+        // "keyword.operator",
         "keyword.type",
         "keyword.var",
         "keyword.struct",
         "storage.type.class.python"
       ],
       "settings": {
-        "foreground": "#002DAA" // 515c67 - 155b84
+        "foreground": "#006868"
+        // "fontStyle": "bold"
       }
     },
     {
