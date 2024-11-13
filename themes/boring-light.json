@@ -52,7 +52,7 @@
       "name": "Numbers",
       "scope": ["constant.numeric", "constant.language", "keyword.other.unit.hexadecimal"],
       "settings": {
-        "foreground": "#006868"
+        "foreground": "#0083B2"
       }
     },
     {
