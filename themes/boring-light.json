@@ -41,7 +41,7 @@
       }
     },
     {
-      "name": "Function declarations",
+      "name": "Functions",
       "scope": ["support.function", "entity.name", "meta.function-call.generic"],
       "settings": {
         // "foreground": "#006868"
@@ -68,7 +68,7 @@
         "storage.type.class.python"
       ],
       "settings": {
-        "foreground": "#006868"
+        "foreground": "#325CC0"
         // "fontStyle": "bold"
       }
     },
