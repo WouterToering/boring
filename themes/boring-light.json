@@ -4,8 +4,8 @@
   "type": "light",
   "include": "./light-base.json",
   "colors": {
-    "editor.foreground": "#2B343F",
-    "editor.background": "#ffffff",
+    "editor.foreground": "#353535",
+    "editor.background": "#fdfcfc",
 
     "terminal.foreground": "#3C3836",
     "terminal.ansiBlack": "#24292f",
@@ -37,7 +37,7 @@
       "name": "Strings",
       "scope": ["string", "entity.name.import.go"],
       "settings": {
-        "foreground": "#1b702f" // 004B20
+        "foreground": "#216b32" // 004B20
       }
     },
     {
@@ -45,7 +45,8 @@
       "scope": ["support.function", "entity.name", "meta.function-call.generic"],
       "settings": {
         // "foreground": "#006868"
-        "fontStyle": "bold"
+        "fontStyle": "bold",
+        "foreground": "#353535"
       }
     },
     {
