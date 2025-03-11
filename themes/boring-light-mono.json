@@ -1,10 +1,10 @@
 {
   "$schema": "vscode://schemas/color-theme",
-  "name": "boring light alt",
+  "name": "boring light mono",
   "type": "light",
   "include": "./light-base.json",
   "colors": {
-    "editor.foreground": "#4F5B62",
+    "editor.foreground": "#2C363C",
     "editor.background": "#fdfcfc",
 
     "terminal.foreground": "#3C3836",
@@ -30,14 +30,14 @@
       "name": "Comments",
       "scope": ["comment", "string.quoted.docstring.multi"],
       "settings": {
-        "foreground": "#628562" // 7c43b1
+        "foreground": "#9C8E87" // 7c43b1
       }
     },
     {
       "name": "Strings",
       "scope": ["string", "entity.name.import.go"],
       "settings": {
-        "foreground": "#7c7c7c" // 004B20
+        "foreground": "#556570" // 004B20
       }
     },
     {
@@ -45,7 +45,7 @@
       "scope": ["support.function", "entity.name", "meta.function-call.generic"],
       "settings": {
         // "foreground": "#006868"
-        // "fontStyle": "bold",
+        "fontStyle": "bold",
         "foreground": "#353535"
       }
     },
@@ -53,7 +53,7 @@
       "name": "Numbers",
       "scope": ["constant.numeric", "constant.language", "keyword.other.unit.hexadecimal"],
       "settings": {
-        "foreground": "#896500"
+        "foreground": "#556570"
       }
     },
     {
@@ -69,7 +69,7 @@
         "storage.type.class.python"
       ],
       "settings": {
-        "foreground": "#0084a3"
+        "foreground": "#6F5749"
         // "fontStyle": "bold"
       }
     },

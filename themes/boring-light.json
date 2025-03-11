@@ -7,20 +7,20 @@
     "editor.foreground": "#353535",
     "editor.background": "#fdfcfc",
 
-    "terminal.foreground": "#3C3836",
+    "terminal.foreground": "#353535",
     "terminal.ansiBlack": "#24292f",
-    "terminal.ansiRed": "#9D0006",
-    "terminal.ansiGreen": "#427B58",
-    "terminal.ansiYellow": "#b07619",
-    "terminal.ansiBlue": "#005c9d",
+    "terminal.ansiRed": "#842828",
+    "terminal.ansiGreen": "#628562",
+    "terminal.ansiYellow": "#846128",
+    "terminal.ansiBlue": "#286A84",
     "terminal.ansiMagenta": "#8250df",
     "terminal.ansiCyan": "#1b7c83",
     "terminal.ansiWhite": "#6e7781",
     "terminal.ansiBrightBlack": "#24292f",
-    "terminal.ansiBrightRed": "#9D0006",
-    "terminal.ansiBrightGreen": "#427B58",
-    "terminal.ansiBrightYellow": "#B57614",
-    "terminal.ansiBrightBlue": "#005c9d",
+    "terminal.ansiBrightRed": "#842828",
+    "terminal.ansiBrightGreen": "#628562",
+    "terminal.ansiBrightYellow": "#846128",
+    "terminal.ansiBrightBlue": "#286A84",
     "terminal.ansiBrightMagenta": "#8250df",
     "terminal.ansiBrightCyan": "#1b7c83",
     "terminal.ansiBrightWhite": "#6e7781"
@@ -30,14 +30,14 @@
       "name": "Comments",
       "scope": ["comment", "string.quoted.docstring.multi"],
       "settings": {
-        "foreground": "#A89375" // 7c43b1
+        "foreground": "#9d9180" // A89375
       }
     },
     {
       "name": "Strings",
       "scope": ["string", "entity.name.import.go"],
       "settings": {
-        "foreground": "#216b32" // 004B20
+        "foreground": "#628562" // 004B20
       }
     },
     {
@@ -45,15 +45,15 @@
       "scope": ["support.function", "entity.name", "meta.function-call.generic"],
       "settings": {
         // "foreground": "#006868"
-        "fontStyle": "bold",
-        "foreground": "#353535"
+        // "fontStyle": "bold",
+        "foreground": "#000"
       }
     },
     {
       "name": "Numbers",
       "scope": ["constant.numeric", "constant.language", "keyword.other.unit.hexadecimal"],
       "settings": {
-        "foreground": "#992212"
+        "foreground": "#842828"
       }
     },
     {
