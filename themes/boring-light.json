@@ -207,8 +207,8 @@
     "keybindingLabel.bottomBorder": "#5c61661a",
     "terminal.background": "#f8f9fa",
     "terminal.foreground": "#5c6166",
-    "editor.foreground": "#403C3A",
-    "editor.background": "#fdfcfc",
+    "editor.foreground": "#4f4a47",
+    "editor.background": "#fcfcfc",
 
     // "terminal.foreground": "#353535",
     // "terminal.ansiBlack": "#24292f",
@@ -234,7 +234,7 @@
       "scope": ["comment", "string.quoted.docstring.multi"],
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#999" // A89375
+        "foreground": "#b6b1af" // A89375
       }
     },
     {
@@ -273,7 +273,7 @@
         "storage.type.class.python"
       ],
       "settings": {
-        "foreground": "#B94C4C"
+        "foreground": "#B33236"
         // "fontStyle": "bold"
       }
     },
