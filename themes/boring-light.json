@@ -233,7 +233,7 @@
       "name": "Comments",
       "scope": ["comment", "string.quoted.docstring.multi"],
       "settings": {
-        "fontStyle": "italic",
+        // "fontStyle": "italic",
         "foreground": "#b6b1af" // A89375
       }
     },
@@ -257,7 +257,7 @@
       "name": "Numbers",
       "scope": ["constant.numeric", "constant.language", "keyword.other.unit.hexadecimal"],
       "settings": {
-        "foreground": "#155db0"
+        "foreground": "#006dad"
       }
     },
     {
@@ -273,7 +273,7 @@
         "storage.type.class.python"
       ],
       "settings": {
-        "foreground": "#B33236"
+        "foreground": "#B3534B"
         // "fontStyle": "bold"
       }
     },
