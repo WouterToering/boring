@@ -207,8 +207,6 @@
     "keybindingLabel.bottomBorder": "#5c61661a",
     "terminal.background": "#f5f7f9",
     "terminal.foreground": "#5c6166",
-    "editor.foreground": "#383533",
-    "editor.background": "#fcfcfc",
 
     // "terminal.foreground": "#353535",
     // "terminal.ansiBlack": "#24292f",
@@ -226,38 +224,39 @@
     "terminal.ansiBrightBlue": "#286A84",
     "terminal.ansiBrightMagenta": "#8250df",
     "terminal.ansiBrightCyan": "#1b7c83",
-    "terminal.ansiBrightWhite": "#6e7781"
+    "terminal.ansiBrightWhite": "#6e7781",
+
+    "editor.foreground": "#1e2124",
+    "editor.background": "#fcfcfd"
   },
   "tokenColors": [
     {
       "name": "Comments",
       "scope": ["comment", "string.quoted.docstring.multi"],
       "settings": {
-        // "fontStyle": "italic",
-        "foreground": "#b6b1af" // A89375
+        "foreground": "#a0a9b1" // A89375
       }
     },
     {
       "name": "Strings",
       "scope": ["string", "entity.name.import.go"],
       "settings": {
-        "foreground": "#3a5f73" // 004B20
+        "foreground": "#40474e" // 004B20
       }
     },
     {
       "name": "Functions",
       "scope": ["support.function", "entity.name", "meta.function-call.generic"],
       "settings": {
-        // "foreground": "#006868"
-        "fontStyle": "bold",
-        "foreground": "#0b0a0a"
+        // "fontStyle": "bold"
+        "foreground": "#000"
       }
     },
     {
       "name": "Numbers",
       "scope": ["constant.numeric", "constant.language", "keyword.other.unit.hexadecimal"],
       "settings": {
-        "foreground": "#006dad"
+        "foreground": "#40474e"
       }
     },
     {
@@ -266,15 +265,15 @@
         "keyword.control",
         "storage.type.function",
         "keyword.function",
-        "keyword.operator",
+        "keyword.operator2",
         "keyword.type",
         "keyword.var",
         "keyword.struct",
-        "storage.type.class.python"
+        "storage.type.class.python",
+        "punctuationnope"
       ],
       "settings": {
-        "foreground": "#B3534B"
-        // "fontStyle": "bold"
+        "foreground": "#535d65"
       }
     },
     {
