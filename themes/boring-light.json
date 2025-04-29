@@ -241,22 +241,23 @@
       "name": "Strings",
       "scope": ["string", "entity.name.import.go"],
       "settings": {
-        "foreground": "#40474e" // 004B20
+        "foreground": "#444d54" // 004B20
       }
     },
     {
       "name": "Functions",
-      "scope": ["support.function", "entity.name", "meta.function-call.generic"],
+      "scope": ["support.function", "entity.name2", "meta.function-call.generic"],
       "settings": {
-        // "fontStyle": "bold"
-        "foreground": "#000"
+        "fontStyle": "bold"
+        // "fontStyle": "underline"
+        // "foreground": "#020303"
       }
     },
     {
       "name": "Numbers",
       "scope": ["constant.numeric", "constant.language", "keyword.other.unit.hexadecimal"],
       "settings": {
-        "foreground": "#40474e"
+        "foreground": "#020303"
       }
     },
     {
@@ -273,7 +274,7 @@
         "punctuationnope"
       ],
       "settings": {
-        "foreground": "#535d65"
+        "foreground": "#556068"
       }
     },
     {
