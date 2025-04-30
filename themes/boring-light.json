@@ -234,14 +234,14 @@
       "name": "Comments",
       "scope": ["comment", "string.quoted.docstring.multi"],
       "settings": {
-        "foreground": "#a0a9b1" // A89375
+        "foreground": "#7a8792" // A89375
       }
     },
     {
       "name": "Strings",
       "scope": ["string", "entity.name.import.go"],
       "settings": {
-        "foreground": "#444d54" // 004B20
+        "foreground": "#0C4B33" // 004B20
       }
     },
     {
@@ -249,15 +249,13 @@
       "scope": ["support.function", "entity.name2", "meta.function-call.generic"],
       "settings": {
         "fontStyle": "bold"
-        // "fontStyle": "underline"
-        // "foreground": "#020303"
       }
     },
     {
       "name": "Numbers",
       "scope": ["constant.numeric", "constant.language", "keyword.other.unit.hexadecimal"],
       "settings": {
-        "foreground": "#020303"
+        "foreground": "#0C4B33"
       }
     },
     {
@@ -274,7 +272,7 @@
         "punctuationnope"
       ],
       "settings": {
-        "foreground": "#556068"
+        "foreground": "#137650"
       }
     },
     {
