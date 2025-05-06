@@ -7,14 +7,14 @@
       "name": "Comments",
       "scope": ["comment", "string.quoted.docstring.multi"],
       "settings": {
-        "foreground": "#7a8792" // A89375
+        "foreground": "#7a8792"
       }
     },
     {
       "name": "Strings",
       "scope": ["string", "entity.name.import.go"],
       "settings": {
-        "foreground": "#112d62" // 004B20
+        "foreground": "#044762"
       }
     },
     {
@@ -28,7 +28,7 @@
       "name": "Numbers",
       "scope": ["constant.numeric", "constant.language", "keyword.other.unit.hexadecimal"],
       "settings": {
-        "foreground": "#112d62"
+        "foreground": "#044762"
       }
     },
     {
@@ -43,18 +43,21 @@
         "storage.type.class.python"
       ],
       "settings": {
-        "foreground": "#1c4ba0"
+        "foreground": "#066084"
       }
     },
     {
       "name": "JSON Key - Level 0",
       "scope": ["source.json meta.structure.dictionary.json support.type.property-name.json"],
       "settings": {
-        "foreground": "#403C3A"
+        "foreground": "#25292c"
       }
     }
   ],
   "colors": {
+    "editor.foreground": "#25292c",
+    "editor.background": "#fafafa",
+
     "focusBorder": "#155db0b3",
     "foreground": "#8a9199",
     "widget.shadow": "#00000026",
@@ -275,9 +278,6 @@
     "terminal.ansiBrightBlue": "#286A84",
     "terminal.ansiBrightMagenta": "#8250df",
     "terminal.ansiBrightCyan": "#1b7c83",
-    "terminal.ansiBrightWhite": "#6e7781",
-
-    "editor.foreground": "#1e2124",
-    "editor.background": "#fafafa"
+    "terminal.ansiBrightWhite": "#6e7781"
   }
 }
