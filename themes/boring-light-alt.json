@@ -14,7 +14,7 @@
       "name": "Strings",
       "scope": ["string", "entity.name.import.go"],
       "settings": {
-        "foreground": "#044762"
+        "foreground": "#2c688c"
       }
     },
     {
@@ -28,7 +28,7 @@
       "name": "Numbers",
       "scope": ["constant.numeric", "constant.language", "keyword.other.unit.hexadecimal"],
       "settings": {
-        "foreground": "#044762"
+        "foreground": "#2c688c"
       }
     },
     {
@@ -43,7 +43,7 @@
         "storage.type.class.python"
       ],
       "settings": {
-        "foreground": "#066084"
+        "foreground": "#9F5A38"
       }
     },
     {
