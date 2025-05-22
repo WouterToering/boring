@@ -7,14 +7,14 @@
       "name": "Comments",
       "scope": ["comment", "string.quoted.docstring.multi"],
       "settings": {
-        "foreground": "#878787"
+        "foreground": "#999"
       }
     },
     {
       "name": "Strings",
       "scope": ["string", "entity.name.import.go"],
       "settings": {
-        "foreground": "#0C4B33"
+        "foreground": "#3b7575"
       }
     },
     {
@@ -28,7 +28,7 @@
       "name": "Numbers",
       "scope": ["constant.numeric", "constant.language", "keyword.other.unit.hexadecimal"],
       "settings": {
-        "foreground": "#0C4B33"
+        "foreground": "#3b7575"
       }
     },
     {

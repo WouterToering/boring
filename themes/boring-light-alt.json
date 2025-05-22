@@ -1,34 +1,36 @@
 {
   "$schema": "vscode://schemas/color-theme",
-  "name": "boring light",
+  "name": "boring light mono",
   "type": "light",
   "tokenColors": [
     {
       "name": "Comments",
       "scope": ["comment", "string.quoted.docstring.multi"],
       "settings": {
-        "foreground": "#7E8389"
+        "foreground": "#919191" // 7c43b1
       }
     },
     {
       "name": "Strings",
       "scope": ["string", "entity.name.import.go"],
       "settings": {
-        "foreground": "#0A6314"
-      }
-    },
-    {
-      "name": "Functions",
-      "scope": ["support.function", "entity.name2", "meta.function-call.generic"],
-      "settings": {
-        "fontStyle": "bold"
+        "foreground": "#204f6d" // #204f6d
       }
     },
     {
       "name": "Numbers",
       "scope": ["constant.numeric", "constant.language", "keyword.other.unit.hexadecimal"],
       "settings": {
-        "foreground": "#1640B5"
+        "foreground": "#204f6d"
+      }
+    },
+    {
+      "name": "Functions",
+      "scope": ["support.function", "entity.name", "meta.function-call.generic"],
+      "settings": {
+        // "fontStyle": "bold"
+        // "foreground": "#000"
+        // "foreground": "#f00"
       }
     },
     {
@@ -37,20 +39,22 @@
         "keyword.control",
         "storage.type.function",
         "keyword.function",
+        // "keyword.operator",
         "keyword.type",
         "keyword.var",
         "keyword.struct",
         "storage.type.class.python"
       ],
       "settings": {
-        "foreground": "#145863"
+        "foreground": "#036c87" // 4B889E
+        // "fontStyle": "bold"
       }
     },
     {
       "name": "JSON Key - Level 0",
       "scope": ["source.json meta.structure.dictionary.json support.type.property-name.json"],
       "settings": {
-        "foreground": "#25292c"
+        "foreground": "#000000"
       }
     }
   ],
