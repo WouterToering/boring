@@ -26,14 +26,14 @@
         "constant"
       ],
       "settings": {
-        "foreground": "#1556AF"
+        "foreground": "#643f21" // 1480ad
       }
     },
     {
       "name": "Functions",
       "scope": ["support.function.go", "entity.name2", "meta.function-call.generic"],
       "settings": {
-        "foreground": "#853c00"
+        "foreground": "#1556AF"
       }
     },
     {
