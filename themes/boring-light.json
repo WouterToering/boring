@@ -7,59 +7,76 @@
       "name": "Comments",
       "scope": ["comment", "string.quoted.docstring.multi"],
       "settings": {
-        "foreground": "#999" // 7c43b1
+        "foreground": "#888"
       }
     },
     {
       "name": "Strings",
-      "scope": ["string", "entity.name.import.go"],
+      "scope": ["string", "entity.name.import.go", "punctuation.definition.string"],
       "settings": {
-        "foreground": "#556570" // #204f6d
+        "foreground": "#0f5724"
       }
     },
     {
       "name": "Numbers",
-      "scope": ["constant.numeric", "constant.language", "keyword.other.unit.hexadecimal"],
+      "scope": [
+        "constant.numeric",
+        "constant.language",
+        "keyword.other.unit.hexadecimal",
+        "constant"
+      ],
       "settings": {
-        "foreground": "#556570"
+        "foreground": "#5d3d24" // 1480ad
       }
     },
     {
       "name": "Functions",
-      "scope": ["support.function.go", "entity.name2", "meta.function-call.generic"],
+      "scope": [
+        "support.function.go",
+        "entity.name.function.support",
+        "meta.function-call.generic",
+        "entity.name.function.decorator.python",
+        "support.type.python"
+      ],
       "settings": {
-        "fontStyle": "bold"
-        // "foreground": "#6C6B20" // 4B889E
+        "foreground": "#04438f"
       }
     },
     {
       "name": "Control flow",
       "scope": [
         "keyword.control",
+        "keyword.operator.logical",
         "storage.type.function",
         "keyword.function",
-        // "keyword.operator",
         "keyword.type",
         "keyword.var",
         "keyword.struct",
         "storage.type.class.python"
       ],
       "settings": {
-        // "foreground": "#0084A3"
-        // "fontStyle": "bold",
-        "foreground": "#000"
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": ["punctuation", "keyword.operator"],
+      "settings": {
+        // "foreground": "#444"
       }
     },
     {
       "name": "JSON Key - Level 0",
-      "scope": ["source.json meta.structure.dictionary.json support.type.property-name.json"],
+      "scope": [
+        "source.json meta.structure.dictionary.json support.type.property-name.json",
+        "punctuation.support.type.property-name"
+      ],
       "settings": {
-        "foreground": "#000000"
+        "foreground": "#080808"
       }
     }
   ],
   "colors": {
-    "editor.foreground": "#434343",
+    "editor.foreground": "#1f2328",
     "editor.background": "#f5f5f5",
 
     "focusBorder": "#155db0b3",

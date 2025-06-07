@@ -1,20 +1,20 @@
 {
   "$schema": "vscode://schemas/color-theme",
-  "name": "boring light mono",
+  "name": "boring light alt",
   "type": "light",
   "tokenColors": [
     {
       "name": "Comments",
       "scope": ["comment", "string.quoted.docstring.multi"],
       "settings": {
-        "foreground": "#888"
+        "foreground": "#85939f"
       }
     },
     {
       "name": "Strings",
       "scope": ["string", "entity.name.import.go", "punctuation.definition.string"],
       "settings": {
-        "foreground": "#0C4B33"
+        "foreground": "#324567"
       }
     },
     {
@@ -23,10 +23,10 @@
         "constant.numeric",
         "constant.language",
         "keyword.other.unit.hexadecimal",
-        "constant"
+        "constant2"
       ],
       "settings": {
-        "foreground": "#603f25" // 1480ad
+        "foreground": "#114893"
       }
     },
     {
@@ -39,7 +39,7 @@
         "support.type.python"
       ],
       "settings": {
-        "foreground": "#04428d"
+        "foreground": "#7a401f"
       }
     },
     {
@@ -59,25 +59,19 @@
       }
     },
     {
-      "scope": ["punctuation", "keyword.operator"],
-      "settings": {
-        "foreground": "#444"
-      }
-    },
-    {
       "name": "JSON Key - Level 0",
       "scope": [
         "source.json meta.structure.dictionary.json support.type.property-name.json",
         "punctuation.support.type.property-name"
       ],
       "settings": {
-        "foreground": "#080808"
+        "foreground": "#131518"
       }
     }
   ],
   "colors": {
-    "editor.foreground": "#080808",
-    "editor.background": "#f5f5f5",
+    "editor.foreground": "#131518",
+    "editor.background": "#f6f6f6",
 
     "focusBorder": "#155db0b3",
     "foreground": "#8a9199",
@@ -161,10 +155,10 @@
     "editorGroupHeader.noTabsBackground": "#f0f0f0",
     "editorGroupHeader.tabsBackground": "#f0f0f0",
     "editorGroupHeader.tabsBorder": "#cfcfcf",
-    "tab.activeBackground": "#f5f5f5",
+    "tab.activeBackground": "#f6f6f6",
     "tab.activeForeground": "#5c6166",
     "tab.border": "#cfcfcf",
-    "tab.activeBorder": "#f5f5f5",
+    "tab.activeBorder": "#f6f6f6",
     "tab.activeBorderTop": "#ffffff00",
     "tab.unfocusedActiveBorderTop": "#ffffff00",
     "tab.inactiveBackground": "#f0f0f0",
