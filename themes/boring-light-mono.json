@@ -1,41 +1,56 @@
 {
   "$schema": "vscode://schemas/color-theme",
-  "name": "boring light mono",
+  "name": "boring light",
   "type": "light",
   "tokenColors": [
     {
       "name": "Comments",
       "scope": ["comment", "string.quoted.docstring.multi"],
       "settings": {
-        "foreground": "#919191" // 7c43b1
+        "foreground": "#85939f"
       }
     },
     {
       "name": "Strings",
-      "scope": ["string", "entity.name.import.go"],
+      "scope": ["string", "entity.name.import.go", "punctuation.definition.string"],
       "settings": {
-        "foreground": "#666" // 004B20
+        "foreground": "#414a53"
+        // "foreground": "#5c2424"
       }
     },
     {
       "name": "Numbers",
-      "scope": ["constant.numeric", "constant.language", "keyword.other.unit.hexadecimal"],
+      "scope": [
+        "constant.numeric",
+        "constant.language",
+        "keyword.other.unit.hexadecimal",
+        "constant2"
+      ],
       "settings": {
-        "foreground": "#666"
+        "foreground": "#414a53" // 1480ad
       }
     },
     {
       "name": "Functions",
-      "scope": ["support.function", "entity.name", "meta.function-call.generic"],
-      "settings": {}
+      "scope": [
+        "support.function.go",
+        "entity.name.function.support",
+        "meta.function-call.generic",
+        "entity.name.function.decorator.python",
+        "support.type.python"
+      ],
+      "settings": {
+        "fontStyle": "bold"
+        // "foreground": "#3f4750"
+      }
     },
     {
       "name": "Control flow",
       "scope": [
         "keyword.control",
+        "keyword.operator.logical",
         "storage.type.function",
         "keyword.function",
-        // "keyword.operator",
         "keyword.type",
         "keyword.var",
         "keyword.struct",
@@ -47,15 +62,18 @@
     },
     {
       "name": "JSON Key - Level 0",
-      "scope": ["source.json meta.structure.dictionary.json support.type.property-name.json"],
+      "scope": [
+        "source.json meta.structure.dictionary.json support.type.property-name.json",
+        "punctuation.support.type.property-name"
+      ],
       "settings": {
-        "foreground": "#000000"
+        "foreground": "#24292E"
       }
     }
   ],
   "colors": {
-    "editor.foreground": "#14161A",
-    "editor.background": "#f5f5f5",
+    "editor.foreground": "#24292E",
+    "editor.background": "#f6f6f6",
 
     "focusBorder": "#155db0b3",
     "foreground": "#8a9199",
@@ -74,10 +92,10 @@
     "button.secondaryBackground": "#8a919933",
     "button.secondaryForeground": "#5c6166",
     "button.secondaryHoverBackground": "#8a919980",
-    "dropdown.background": "#fcfcfc",
+    "dropdown.background": "#f8f8f8",
     "dropdown.foreground": "#8a9199",
     "dropdown.border": "#8a919945",
-    "input.background": "#fcfcfc",
+    "input.background": "#f8f8f8",
     "input.border": "#8a919945",
     "input.foreground": "#5c6166",
     "input.placeholderForeground": "#8a919980",
@@ -217,9 +235,9 @@
     "panel.border": "#cfcfcf",
     "panelTitle.activeBorder": "#155db0",
     "panelTitle.activeForeground": "#5c6166",
-    "panelTitle.inactiveForeground": "#8a9199",
+    "panelTitle.inactiveForeground": "#777",
     "statusBar.background": "#eaeaea",
-    "statusBar.foreground": "#8a9199",
+    "statusBar.foreground": "#777",
     "statusBar.border": "#cfcfcf",
     "statusBar.debuggingBackground": "#ed9366",
     "statusBar.debuggingForeground": "#fcfcfc",
