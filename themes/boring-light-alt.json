@@ -26,7 +26,7 @@
         "constant2"
       ],
       "settings": {
-        "foreground": "#114893"
+        "foreground": "#134da0"
       }
     },
     {
@@ -39,7 +39,7 @@
         "support.type.python"
       ],
       "settings": {
-        "foreground": "#7a401f"
+        "foreground": "#702c00"
       }
     },
     {
