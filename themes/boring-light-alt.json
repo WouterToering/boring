@@ -7,31 +7,27 @@
       "name": "Comments",
       "scope": ["comment", "string.quoted.docstring.multi"],
       "settings": {
-        "foreground": "#85939f"
+        "foreground": "#70818f"
       }
     },
     {
       "name": "Strings",
       "scope": ["string", "entity.name.import.go", "punctuation.definition.string"],
       "settings": {
-        "foreground": "#324567"
+        "foreground": "#436b61"
       }
     },
     {
       "name": "Numbers",
-      "scope": [
-        "constant.numeric",
-        "constant.language",
-        "keyword.other.unit.hexadecimal",
-        "constant2"
-      ],
+      "scope": ["constant.numeric", "constant.language", "keyword.other.unit.hexadecimal"],
       "settings": {
-        "foreground": "#134da0"
+        "foreground": "#006B6C"
       }
     },
     {
       "name": "Functions",
       "scope": [
+        "entity.name.function",
         "support.function.go",
         "entity.name.function.support",
         "meta.function-call.generic",
@@ -39,7 +35,7 @@
         "support.type.python"
       ],
       "settings": {
-        "foreground": "#702c00"
+        "foreground": "#005c91"
       }
     },
     {
@@ -172,8 +168,8 @@
     "editor.selectionBackground": "#035bd626",
     "editor.selectionHighlightBackground": "#6cbf4326",
     "editor.selectionHighlightBorder": "#6cbf4300",
-    "editor.wordHighlightBackground": "#478acc14",
-    "editor.wordHighlightStrongBackground": "#6cbf4314",
+    "editor.wordHighlightBackground": "#dda81712",
+    "editor.wordHighlightStrongBackground": "#dda81712",
     "editor.findMatchBackground": "#ecd9ff",
     "editor.findMatchHighlightBackground": "#ecd9ff73",
     "editor.findRangeHighlightBackground": "#ecd9ff40",
