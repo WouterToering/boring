@@ -35,7 +35,7 @@
         "support.type.python"
       ],
       "settings": {
-        "foreground": "#005c91"
+        "fontStyle": "bold"
       }
     },
     {
@@ -51,7 +51,7 @@
         "storage.type.class.python"
       ],
       "settings": {
-        "fontStyle": "bold"
+        "foreground": "#005c91"
       }
     },
     {
