@@ -73,7 +73,7 @@
   ],
   "colors": {
     "editor.foreground": "#131518",
-    "editor.background": "#f6f6f6",
+    "editor.background": "#f4f4f4",
 
     "focusBorder": "#155db0b3",
     "foreground": "#8a9199",
@@ -157,10 +157,10 @@
     "editorGroupHeader.noTabsBackground": "#f0f0f0",
     "editorGroupHeader.tabsBackground": "#f0f0f0",
     "editorGroupHeader.tabsBorder": "#cfcfcf",
-    "tab.activeBackground": "#f6f6f6",
+    "tab.activeBackground": "#f4f4f4",
     "tab.activeForeground": "#5c6166",
     "tab.border": "#cfcfcf",
-    "tab.activeBorder": "#f6f6f6",
+    "tab.activeBorder": "#f4f4f4",
     "tab.activeBorderTop": "#ffffff00",
     "tab.unfocusedActiveBorderTop": "#ffffff00",
     "tab.inactiveBackground": "#f0f0f0",

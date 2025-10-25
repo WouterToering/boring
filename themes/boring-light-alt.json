@@ -7,27 +7,27 @@
       "name": "Comments",
       "scope": ["comment", "string.quoted.docstring.multi"],
       "settings": {
-        "foreground": "#70818f"
+        "foreground": "#82919d"
       }
     },
     {
       "name": "Strings",
       "scope": ["string", "entity.name.import.go", "punctuation.definition.string"],
       "settings": {
-        "foreground": "#436b61"
+        "foreground": "#1E766D"
       }
     },
     {
       "name": "Numbers",
       "scope": ["constant.numeric", "constant.language", "keyword.other.unit.hexadecimal"],
       "settings": {
-        "foreground": "#006B6C"
+        "foreground": "#49688C"
       }
     },
     {
       "name": "Functions",
       "scope": [
-        "entity.name.function",
+        "entity.name.function2",
         "support.function.go",
         "entity.name.function.support",
         "meta.function-call.generic",
@@ -35,7 +35,7 @@
         "support.type.python"
       ],
       "settings": {
-        "fontStyle": "bold"
+        "foreground": "#1D699F"
       }
     },
     {
@@ -51,7 +51,7 @@
         "storage.type.class.python"
       ],
       "settings": {
-        "foreground": "#005c91"
+        "fontStyle": "bold"
       }
     },
     {
@@ -66,8 +66,8 @@
     }
   ],
   "colors": {
-    "editor.foreground": "#131518",
-    "editor.background": "#f6f6f6",
+    "editor.foreground": "#25251F",
+    "editor.background": "#f4f4f4",
 
     "focusBorder": "#155db0b3",
     "foreground": "#8a9199",
@@ -151,10 +151,10 @@
     "editorGroupHeader.noTabsBackground": "#f0f0f0",
     "editorGroupHeader.tabsBackground": "#f0f0f0",
     "editorGroupHeader.tabsBorder": "#cfcfcf",
-    "tab.activeBackground": "#f6f6f6",
+    "tab.activeBackground": "#f4f4f4",
     "tab.activeForeground": "#5c6166",
     "tab.border": "#cfcfcf",
-    "tab.activeBorder": "#f6f6f6",
+    "tab.activeBorder": "#f4f4f4",
     "tab.activeBorderTop": "#ffffff00",
     "tab.unfocusedActiveBorderTop": "#ffffff00",
     "tab.inactiveBackground": "#f0f0f0",
