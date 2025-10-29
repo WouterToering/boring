@@ -1,10 +1,10 @@
 {
   "$schema": "vscode://schemas/color-theme",
-  "name": "boring light alt",
+  "name": "boring light dimmed alt",
   "type": "light",
   "include": "./light-base.json",
   "colors": {
-    "editor.foreground": "#131518"
+    "editor.foreground": "#1C1C1C"
   },
   "tokenColors": [
     {
@@ -26,7 +26,6 @@
     {
       "name": "Functions",
       "scope": [
-        "entity.name.function",
         "support.function.go",
         "entity.name.function.support",
         "meta.function-call.generic",
@@ -34,21 +33,21 @@
         "support.type.python"
       ],
       "settings": {
-        "foreground": "#1D699F"
+        "foreground": "#42637a"
       }
     },
     {
       "name": "Strings",
       "scope": ["string", "entity.name.import.go", "punctuation.definition.string"],
       "settings": {
-        "foreground": "#1E766D"
+        "foreground": "#34605c"
       }
     },
     {
       "name": "Numbers",
       "scope": ["constant.numeric", "constant.language", "keyword.other.unit.hexadecimal"],
       "settings": {
-        "foreground": "#026B6B"
+        "foreground": "#165858"
       }
     },
     {
@@ -57,10 +56,6 @@
       "settings": {
         "foreground": "#888"
       }
-    },
-    {
-      "scope": ["punctuation", "keyword.operator"],
-      "settings": {}
     },
     {
       "name": "JSON Key",

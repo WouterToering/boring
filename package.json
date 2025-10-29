@@ -22,17 +22,27 @@
   "contributes": {
     "themes": [
       {
-        "label": "boring light",
+        "label": "boring 1: light",
         "uiTheme": "vs",
         "path": "./themes/boring-light.json"
       },
       {
-        "label": "boring light alt",
+        "label": "boring 3: light alt",
         "uiTheme": "vs",
         "path": "./themes/boring-light-alt.json"
       },
       {
-        "label": "boring light mono",
+        "label": "boring 2: light dimmed",
+        "uiTheme": "vs",
+        "path": "./themes/boring-light-dimmed.json"
+      },
+      {
+        "label": "boring 4: light dimmed alt",
+        "uiTheme": "vs",
+        "path": "./themes/boring-light-dimmed-alt.json"
+      },
+      {
+        "label": "boring 5: light mono",
         "uiTheme": "vs",
         "path": "./themes/boring-light-mono.json"
       },
