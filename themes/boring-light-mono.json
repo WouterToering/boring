@@ -14,7 +14,7 @@
       "name": "Strings",
       "scope": ["string", "entity.name.import.go", "punctuation.definition.string"],
       "settings": {
-        "foreground": "#676767"
+        "foreground": "#585858"
         // "foreground": "#5c2424"
       }
     },
@@ -27,7 +27,7 @@
         "constant2"
       ],
       "settings": {
-        "foreground": "#676767" // 1480ad
+        "foreground": "#585858" // 1480ad
       }
     },
     {
@@ -57,7 +57,7 @@
         "storage.type.class.python"
       ],
       "settings": {
-        "foreground": "#676767"
+        "foreground": "#505050"
         // "fontStyle": "bold"
       }
     },
