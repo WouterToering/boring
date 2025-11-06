@@ -1,6 +1,6 @@
 {
   "$schema": "vscode://schemas/color-theme",
-  "name": "boring light dimmed alt",
+  "name": "boring light",
   "type": "light",
   "include": "./light-base.json",
   "colors": {
@@ -34,21 +34,21 @@
         "support.type.python"
       ],
       "settings": {
-        "foreground": "#42637a"
+        "foreground": "#5e5e5e"
       }
     },
     {
       "name": "Strings",
       "scope": ["string", "entity.name.import.go", "punctuation.definition.string"],
       "settings": {
-        "foreground": "#34605c"
+        "foreground": "#4a4a4a"
       }
     },
     {
       "name": "Numbers",
       "scope": ["constant.numeric", "constant.language", "keyword.other.unit.hexadecimal"],
       "settings": {
-        "foreground": "#165858"
+        "foreground": "#373737"
       }
     },
     {
@@ -57,6 +57,10 @@
       "settings": {
         "foreground": "#888"
       }
+    },
+    {
+      "scope": ["punctuation", "keyword.operator"],
+      "settings": {}
     },
     {
       "name": "JSON Key",

@@ -26,6 +26,7 @@
     {
       "name": "Functions",
       "scope": [
+        "entity.name.function",
         "support.function.go",
         "entity.name.function.support",
         "meta.function-call.generic",
