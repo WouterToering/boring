@@ -22,34 +22,24 @@
   "contributes": {
     "themes": [
       {
-        "label": "boring 1: light",
-        "uiTheme": "vs",
-        "path": "./themes/boring-light.json"
-      },
-      {
-        "label": "boring 3: light alt",
+        "label": "boring 1",
         "uiTheme": "vs",
         "path": "./themes/boring-light-alt.json"
       },
       {
-        "label": "boring 2: light dimmed",
-        "uiTheme": "vs",
-        "path": "./themes/boring-light-dimmed.json"
-      },
-      {
-        "label": "boring 4: light dimmed alt",
+        "label": "boring 2",
         "uiTheme": "vs",
         "path": "./themes/boring-light-dimmed-alt.json"
       },
       {
-        "label": "boring 5: light mono",
+        "label": "boring 3",
         "uiTheme": "vs",
-        "path": "./themes/boring-light-mono.json"
+        "path": "./themes/boring-light-blue.json"
       },
       {
-        "label": "boring 6: light mono alt",
+        "label": "boring 4",
         "uiTheme": "vs",
-        "path": "./themes/boring-light-mono-alt.json"
+        "path": "./themes/boring-light-green.json"
       },
       {
         "label": "boring dark",

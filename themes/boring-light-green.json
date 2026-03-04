@@ -1,17 +1,17 @@
 {
   "$schema": "vscode://schemas/color-theme",
-  "name": "boring light",
+  "name": "boring light green",
   "type": "light",
   "include": "./light-base.json",
   "colors": {
-    "editor.foreground": "#111"
+    "editor.foreground": "#202224"
   },
   "tokenColors": [
     {
       "name": "Control flow",
       "scope": [
         "keyword.control",
-        "keyword.operator.logical",
+        // "keyword.operator.logical",
         "storage.type.function",
         "keyword.function",
         "keyword.type",
@@ -20,35 +20,34 @@
         "storage.type.class.python"
       ],
       "settings": {
-        "foreground": "#5e5e5e"
+        "fontStyle": "bold"
       }
     },
     {
-      "name": "Functions",
+      "name": "Class+Function definition",
       "scope": [
-        "entity.name.function",
-        "support.function.go",
-        "entity.name.function.support",
-        "meta.function-call.generic",
-        "entity.name.function.decorator.python",
-        "support.type.python"
+        "entity.name.function.go",
+        "entity.name.function.python",
+        "entity.name.type.class",
+        "entity.function"
       ],
       "settings": {
-        "fontStyle": "bold"
+        "foreground": "#2a830c"
+        // "fontStyle": "bold",
       }
     },
     {
       "name": "Strings",
       "scope": ["string", "entity.name.import.go", "punctuation.definition.string"],
       "settings": {
-        "foreground": "#4a4a4a"
+        "foreground": "#1c5708"
       }
     },
     {
       "name": "Numbers",
       "scope": ["constant.numeric", "constant.language", "keyword.other.unit.hexadecimal"],
       "settings": {
-        "foreground": "#373737"
+        "foreground": "#1c5708"
       }
     },
     {
@@ -57,10 +56,6 @@
       "settings": {
         "foreground": "#888"
       }
-    },
-    {
-      "scope": ["punctuation", "keyword.operator"],
-      "settings": {}
     },
     {
       "name": "JSON Key",

@@ -5,62 +5,59 @@
   // "semanticHighlighting": true,
   "tokenColors": [
     {
-      "name": "Comments",
-      "scope": ["comment", "string.quoted.docstring.multi"],
-      "settings": {
-        "foreground": "#768593"
-      }
-    },
-    {
-      "name": "Strings",
-      "scope": ["string", "entity.name.import.go"],
-      "settings": {
-        "foreground": "#2eb895"
-      }
-    },
-    {
-      "name": "Function declarations",
+      "name": "Control flow",
       "scope": [
-        // "entity.name.function",
-        "support.function",
-        // "support.constant.handlebars",
-        // "source.powershell variable.other.member",
-        // "meta.function-call.generic.python"
-        "entity.name",
-        "meta.function-call.generic"
+        "keyword.control",
+        // "keyword.operator.logical",
+        "storage.type.function",
+        "keyword.function",
+        "keyword.type",
+        "keyword.var",
+        "keyword.struct",
+        "storage.type.class.python"
       ],
       "settings": {
-        "foreground": "#b8bfc7", // 5ba3f1
         "fontStyle": "bold"
       }
     },
     {
-      "name": "Numbers",
-      "scope": ["constant.numeric", "constant.language"],
-      "settings": {
-        "foreground": "#ce5071"
-      }
-    },
-    {
-      "name": "Control flow",
+      "name": "Class+Function definition",
       "scope": [
-        "keyword.control",
-        "storage.type.function",
-        "keyword.function",
-        "keyword.operator",
-        "keyword.type",
-        "keyword.var",
-        "keyword.struct"
+        "entity.name.function.go",
+        "entity.name.function.python",
+        "entity.name.type.class",
+        "entity.function"
       ],
       "settings": {
-        "foreground": "#679cd5" // 515c67
+        "foreground": "#79B8FF"
       }
     },
     {
-      "name": "JSON Key - Level 0",
-      "scope": ["source.json meta.structure.dictionary.json support.type.property-name.json"],
+      "name": "Strings",
+      "scope": ["string", "entity.name.import.go", "punctuation.definition.string"],
       "settings": {
-        "foreground": "#b8bfc7"
+        "foreground": "#9ECBFF"
+      }
+    },
+    {
+      "name": "Numbers",
+      "scope": ["constant.numeric", "constant.language", "keyword.other.unit.hexadecimal"],
+      "settings": {
+        "foreground": "#9ECBFF"
+      }
+    },
+    {
+      "name": "Comments",
+      "scope": ["comment", "string.quoted.docstring.multi"],
+      "settings": {
+        "foreground": "#888"
+      }
+    },
+    {
+      "name": "JSON Key",
+      "scope": ["support.type.property-name.json", "punctuation.support.type.property-name"],
+      "settings": {
+        "foreground": "#aaa"
       }
     }
   ],
