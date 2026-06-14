@@ -4,7 +4,7 @@
   "type": "light",
   "include": "./light-base.json",
   "colors": {
-    "editor.foreground": "#202224"
+    "editor.foreground": "#263238"
   },
   "tokenColors": [
     {
@@ -32,28 +32,29 @@
         "entity.function"
       ],
       "settings": {
-        "foreground": "#0550ae"
+        "foreground": "#006da4",
+        "fontStyle": "bold"
       }
     },
     {
       "name": "Strings",
       "scope": ["string", "entity.name.import.go", "punctuation.definition.string"],
       "settings": {
-        "foreground": "#0a3069"
+        "foreground": "#26617f"
       }
     },
     {
       "name": "Numbers",
       "scope": ["constant.numeric", "constant.language", "keyword.other.unit.hexadecimal"],
       "settings": {
-        "foreground": "#2b5588"
+        "foreground": "#225872"
       }
     },
     {
       "name": "Comments",
       "scope": ["comment", "string.quoted.docstring.multi"],
       "settings": {
-        "foreground": "#888"
+        "foreground": "#7e95a1"
       }
     },
     {
