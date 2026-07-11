@@ -32,8 +32,7 @@
         "entity.function"
       ],
       "settings": {
-        "foreground": "#006da4",
-        "fontStyle": "bold"
+        "foreground": "#006da4"
       }
     },
     {
@@ -47,7 +46,7 @@
       "name": "Numbers",
       "scope": ["constant.numeric", "constant.language", "keyword.other.unit.hexadecimal"],
       "settings": {
-        "foreground": "#225872"
+        "foreground": "#26617f"
       }
     },
     {

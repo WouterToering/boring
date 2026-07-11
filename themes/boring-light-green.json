@@ -1,10 +1,10 @@
 {
   "$schema": "vscode://schemas/color-theme",
-  "name": "boring light green",
+  "name": "boring light blue",
   "type": "light",
   "include": "./light-base.json",
   "colors": {
-    "editor.foreground": "#202224"
+    "editor.foreground": "#263238"
   },
   "tokenColors": [
     {
@@ -32,29 +32,28 @@
         "entity.function"
       ],
       "settings": {
-        "foreground": "#2a830c"
-        // "fontStyle": "bold",
+        "foreground": "#16668e"
       }
     },
     {
       "name": "Strings",
       "scope": ["string", "entity.name.import.go", "punctuation.definition.string"],
       "settings": {
-        "foreground": "#1c5708"
+        "foreground": "#556570"
       }
     },
     {
       "name": "Numbers",
       "scope": ["constant.numeric", "constant.language", "keyword.other.unit.hexadecimal"],
       "settings": {
-        "foreground": "#1c5708"
+        "foreground": "#556570"
       }
     },
     {
       "name": "Comments",
       "scope": ["comment", "string.quoted.docstring.multi"],
       "settings": {
-        "foreground": "#888"
+        "foreground": "#807570"
       }
     },
     {
