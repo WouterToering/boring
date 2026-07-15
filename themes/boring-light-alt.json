@@ -32,21 +32,21 @@
         "entity.function"
       ],
       "settings": {
-        "foreground": "#1D699F"
+        "foreground": "#085D91"
       }
     },
     {
       "name": "Strings",
       "scope": ["string", "entity.name.import.go", "punctuation.definition.string"],
       "settings": {
-        "foreground": "#207464"
+        "foreground": "#06653D"
       }
     },
     {
       "name": "Numbers",
       "scope": ["constant.numeric", "constant.language", "keyword.other.unit.hexadecimal"],
       "settings": {
-        "foreground": "#1D699F"
+        "foreground": "#077988"
       }
     },
     {
