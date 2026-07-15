@@ -4,7 +4,7 @@
   "type": "light",
   "include": "./light-base.json",
   "colors": {
-    "editor.foreground": "#263238"
+    "editor.foreground": "#2E3440FF"
   },
   "tokenColors": [
     {
@@ -32,14 +32,14 @@
         "entity.function"
       ],
       "settings": {
-        "foreground": "#085D91"
+        "foreground": "#2966A3"
       }
     },
     {
       "name": "Strings",
       "scope": ["string", "entity.name.import.go", "punctuation.definition.string"],
       "settings": {
-        "foreground": "#06653D"
+        "foreground": "#2F855A"
       }
     },
     {

@@ -4,14 +4,16 @@
   "type": "light",
   "include": "./light-base.json",
   "colors": {
-    "editor.foreground": "#263238"
+    "editor.foreground": "#1c1918"
+    // "editor.background": "#f8f7f7"
   },
   "tokenColors": [
     {
       "name": "Control flow",
       "scope": [
         "keyword.control",
-        // "keyword.operator.logical",
+        "keyword.operator.logical",
+        // "keyword.operator",
         "storage.type.function",
         "keyword.function",
         "keyword.type",
@@ -20,6 +22,7 @@
         "storage.type.class.python"
       ],
       "settings": {
+        // "foreground": "#724e00"
         "fontStyle": "bold"
       }
     },
@@ -32,28 +35,28 @@
         "entity.function"
       ],
       "settings": {
-        "foreground": "#16668e"
+        // "fontStyle": "bold"
       }
     },
     {
       "name": "Strings",
       "scope": ["string", "entity.name.import.go", "punctuation.definition.string"],
       "settings": {
-        "foreground": "#556570"
+        "foreground": "#005273"
       }
     },
     {
       "name": "Numbers",
       "scope": ["constant.numeric", "constant.language", "keyword.other.unit.hexadecimal"],
       "settings": {
-        "foreground": "#556570"
+        "foreground": "#005273"
       }
     },
     {
       "name": "Comments",
       "scope": ["comment", "string.quoted.docstring.multi"],
       "settings": {
-        "foreground": "#807570"
+        "foreground": "#7f7f7f"
       }
     },
     {
