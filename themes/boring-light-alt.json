@@ -4,7 +4,7 @@
   "type": "light",
   "include": "./light-base.json",
   "colors": {
-    "editor.foreground": "#111"
+    "editor.foreground": "#263238"
   },
   "tokenColors": [
     {
@@ -24,14 +24,12 @@
       }
     },
     {
-      "name": "Functions",
+      "name": "Class+Function definition",
       "scope": [
-        "entity.name.function",
-        "support.function.go",
-        "entity.name.function.support",
-        "meta.function-call.generic",
-        "entity.name.function.decorator.python",
-        "support.type.python"
+        "entity.name.function.go",
+        "entity.name.function.python",
+        "entity.name.type.class",
+        "entity.function"
       ],
       "settings": {
         "foreground": "#1D699F"
@@ -41,21 +39,21 @@
       "name": "Strings",
       "scope": ["string", "entity.name.import.go", "punctuation.definition.string"],
       "settings": {
-        "foreground": "#1E766D"
+        "foreground": "#207464"
       }
     },
     {
       "name": "Numbers",
       "scope": ["constant.numeric", "constant.language", "keyword.other.unit.hexadecimal"],
       "settings": {
-        "foreground": "#026B6B"
+        "foreground": "#1D699F"
       }
     },
     {
       "name": "Comments",
       "scope": ["comment", "string.quoted.docstring.multi"],
       "settings": {
-        "foreground": "#888"
+        "foreground": "#7e95a1"
       }
     },
     {
