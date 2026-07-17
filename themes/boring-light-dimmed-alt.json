@@ -1,10 +1,10 @@
 {
   "$schema": "vscode://schemas/color-theme",
-  "name": "boring light alt",
+  "name": "boring light blue",
   "type": "light",
   "include": "./light-base.json",
   "colors": {
-    "editor.foreground": "#263238"
+    "editor.foreground": "#111122"
   },
   "tokenColors": [
     {
@@ -12,6 +12,7 @@
       "scope": [
         "keyword.control",
         "keyword.operator.logical",
+        // "keyword.operator",
         "storage.type.function",
         "keyword.function",
         "keyword.type",
@@ -31,40 +32,34 @@
         "entity.name.type.class",
         "entity.function"
       ],
-      "settings": {
-        "foreground": "#1749BD"
-      }
+      "settings": {}
     },
     {
       "name": "Strings",
       "scope": ["string", "entity.name.import.go", "punctuation.definition.string"],
       "settings": {
-        "foreground": "#086E14"
+        "foreground": "#032F62"
       }
     },
     {
       "name": "Numbers",
       "scope": ["constant.numeric", "constant.language", "keyword.other.unit.hexadecimal"],
       "settings": {
-        "foreground": "#1749BD"
+        "foreground": "#032F62"
       }
     },
     {
       "name": "Comments",
       "scope": ["comment", "string.quoted.docstring.multi"],
       "settings": {
-        "foreground": "#7e95a1"
+        "foreground": "#889"
       }
-    },
-    {
-      "scope": ["punctuation", "keyword.operator"],
-      "settings": {}
     },
     {
       "name": "JSON Key",
       "scope": ["support.type.property-name.json", "punctuation.support.type.property-name"],
       "settings": {
-        "foreground": "#24292E"
+        "foreground": "#111122"
       }
     }
   ]

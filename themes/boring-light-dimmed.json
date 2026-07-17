@@ -41,14 +41,14 @@
       "name": "Strings",
       "scope": ["string", "entity.name.import.go", "punctuation.definition.string"],
       "settings": {
-        "foreground": "#34605c"
+        "foreground": "#086E14"
       }
     },
     {
       "name": "Numbers",
       "scope": ["constant.numeric", "constant.language", "keyword.other.unit.hexadecimal"],
       "settings": {
-        "foreground": "#165858"
+        "foreground": "#42637a"
       }
     },
     {
@@ -62,7 +62,7 @@
       "name": "JSON Key",
       "scope": ["support.type.property-name.json", "punctuation.support.type.property-name"],
       "settings": {
-        "foreground": "#24292E"
+        "foreground": "#111122"
       }
     }
   ]

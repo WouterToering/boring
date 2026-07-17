@@ -4,14 +4,15 @@
   "type": "light",
   "include": "./light-base.json",
   "colors": {
-    "editor.foreground": "#263238"
+    "editor.foreground": "#111122"
   },
   "tokenColors": [
     {
       "name": "Control flow",
       "scope": [
         "keyword.control",
-        // "keyword.operator.logical",
+        "keyword.operator.logical",
+        // "keyword.operator",
         "storage.type.function",
         "keyword.function",
         "keyword.type",
@@ -31,29 +32,28 @@
         "entity.name.type.class",
         "entity.function"
       ],
-      "settings": {
-        "foreground": "#006da4"
-      }
+      "settings": {}
     },
     {
       "name": "Strings",
       "scope": ["string", "entity.name.import.go", "punctuation.definition.string"],
       "settings": {
-        "foreground": "#26617f"
+        "foreground": "#556"
       }
     },
     {
       "name": "Numbers",
       "scope": ["constant.numeric", "constant.language", "keyword.other.unit.hexadecimal"],
       "settings": {
-        "foreground": "#26617f"
+        // "foreground": "#556"
+        // "foreground": "#666"
       }
     },
     {
       "name": "Comments",
       "scope": ["comment", "string.quoted.docstring.multi"],
       "settings": {
-        "foreground": "#7e95a1"
+        "foreground": "#889"
       }
     },
     {
