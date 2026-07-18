@@ -4,7 +4,10 @@
   "type": "light",
   "include": "./light-base.json",
   "colors": {
-    "editor.foreground": "#111122"
+    "editor.foreground": "#111122",
+    "editor.background": "#fbfaf8",
+    "tab.activeBackground": "#fbfaf8",
+    "tab.activeBorder": "#fbfaf8"
   },
   "tokenColors": [
     {
@@ -43,10 +46,9 @@
     },
     {
       "name": "Numbers",
-      "scope": ["constant.numeric", "constant.language", "keyword.other.unit.hexadecimal"],
+      "scope": ["constant.numeric", "constant.language2", "keyword.other.unit.hexadecimal"],
       "settings": {
-        // "foreground": "#556"
-        // "foreground": "#666"
+        "foreground": "#556"
       }
     },
     {
