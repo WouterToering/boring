@@ -4,7 +4,7 @@
   "type": "light",
   "include": "./light-base.json",
   "colors": {
-    "editor.foreground": "#111122"
+    "editor.foreground": "#202224"
   },
   "tokenColors": [
     {

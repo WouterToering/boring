@@ -4,10 +4,10 @@
   "type": "light",
   "include": "./light-base.json",
   "colors": {
-    "editor.foreground": "#111122",
-    "editor.background": "#fbfaf8",
-    "tab.activeBackground": "#fbfaf8",
-    "tab.activeBorder": "#fbfaf8"
+    "editor.foreground": "#202224"
+    // "editor.background": "#f8f8f8",
+    // "tab.activeBackground": "#f8f8f8",
+    // "tab.activeBorder": "#f8f8f8"
   },
   "tokenColors": [
     {
@@ -24,6 +24,7 @@
         "storage.type.class.python"
       ],
       "settings": {
+        // "foreground": "#000"
         "fontStyle": "bold"
       }
     },
@@ -41,21 +42,21 @@
       "name": "Strings",
       "scope": ["string", "entity.name.import.go", "punctuation.definition.string"],
       "settings": {
-        "foreground": "#556"
+        "foreground": "#585e63"
       }
     },
     {
       "name": "Numbers",
       "scope": ["constant.numeric", "constant.language2", "keyword.other.unit.hexadecimal"],
       "settings": {
-        "foreground": "#556"
+        "foreground": "#585e63"
       }
     },
     {
       "name": "Comments",
       "scope": ["comment", "string.quoted.docstring.multi"],
       "settings": {
-        "foreground": "#889"
+        "foreground": "#8a9197"
       }
     },
     {

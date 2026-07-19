@@ -4,7 +4,10 @@
   "type": "light",
   "include": "./light-base.json",
   "colors": {
-    "editor.foreground": "#111122"
+    "editor.foreground": "#4c4866"
+    // "editor.background": "#fbf8f5",
+    // "tab.activeBackground": "#fbf8f5",
+    // "tab.activeBorder": "#fbf8f5"
   },
   "tokenColors": [
     {
@@ -21,7 +24,8 @@
         "storage.type.class.python"
       ],
       "settings": {
-        "fontStyle": "bold"
+        // "fontStyle": "bold"
+        "foreground": "#A65E44"
       }
     },
     {
@@ -38,14 +42,14 @@
       "name": "Strings",
       "scope": ["string", "entity.name.import.go", "punctuation.definition.string"],
       "settings": {
-        "foreground": "#032F62"
+        "foreground": "#286983"
       }
     },
     {
       "name": "Numbers",
-      "scope": ["constant.numeric", "constant.language", "keyword.other.unit.hexadecimal"],
+      "scope": ["constant.numeric", "constant.language2", "keyword.other.unit.hexadecimal"],
       "settings": {
-        "foreground": "#032F62"
+        "foreground": "#556"
       }
     },
     {
@@ -59,7 +63,7 @@
       "name": "JSON Key",
       "scope": ["support.type.property-name.json", "punctuation.support.type.property-name"],
       "settings": {
-        "foreground": "#111122"
+        "foreground": "#24292E"
       }
     }
   ]
