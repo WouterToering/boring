@@ -5,9 +5,6 @@
   "include": "./light-base.json",
   "colors": {
     "editor.foreground": "#202224"
-    // "editor.background": "#f8f8f8",
-    // "tab.activeBackground": "#f8f8f8",
-    // "tab.activeBorder": "#f8f8f8"
   },
   "tokenColors": [
     {
@@ -24,7 +21,6 @@
         "storage.type.class.python"
       ],
       "settings": {
-        // "foreground": "#000"
         "fontStyle": "bold"
       }
     },
@@ -42,14 +38,14 @@
       "name": "Strings",
       "scope": ["string", "entity.name.import.go", "punctuation.definition.string"],
       "settings": {
-        "foreground": "#585e63"
+        "foreground": "#646a70"
       }
     },
     {
       "name": "Numbers",
       "scope": ["constant.numeric", "constant.language2", "keyword.other.unit.hexadecimal"],
       "settings": {
-        "foreground": "#585e63"
+        "foreground": "#646a70"
       }
     },
     {

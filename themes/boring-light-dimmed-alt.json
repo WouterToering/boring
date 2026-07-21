@@ -4,10 +4,7 @@
   "type": "light",
   "include": "./light-base.json",
   "colors": {
-    "editor.foreground": "#4c4866"
-    // "editor.background": "#fbf8f5",
-    // "tab.activeBackground": "#fbf8f5",
-    // "tab.activeBorder": "#fbf8f5"
+    "editor.foreground": "#202224"
   },
   "tokenColors": [
     {
@@ -21,11 +18,13 @@
         "keyword.type",
         "keyword.var",
         "keyword.struct",
-        "storage.type.class.python"
+        "storage.type.class.python",
+        "punctuation.definition.begin.bracket.curly",
+        "punctuation.definition.end.bracket.curly"
       ],
       "settings": {
-        // "fontStyle": "bold"
-        "foreground": "#A65E44"
+        // "fontStyle": "bold",
+        "foreground": "#30577D"
       }
     },
     {
@@ -42,21 +41,21 @@
       "name": "Strings",
       "scope": ["string", "entity.name.import.go", "punctuation.definition.string"],
       "settings": {
-        "foreground": "#286983"
+        "foreground": "#55756f"
       }
     },
     {
       "name": "Numbers",
       "scope": ["constant.numeric", "constant.language2", "keyword.other.unit.hexadecimal"],
       "settings": {
-        "foreground": "#556"
+        "foreground": "#4D699B"
       }
     },
     {
       "name": "Comments",
       "scope": ["comment", "string.quoted.docstring.multi"],
       "settings": {
-        "foreground": "#889"
+        "foreground": "#8a9197"
       }
     },
     {

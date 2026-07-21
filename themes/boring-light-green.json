@@ -38,28 +38,28 @@
       "name": "Strings",
       "scope": ["string", "entity.name.import.go", "punctuation.definition.string"],
       "settings": {
-        // "foreground": "#004973"
+        "foreground": "#30577D"
       }
     },
     {
       "name": "Numbers",
-      "scope": ["constant.numeric", "constant.language", "keyword.other.unit.hexadecimal"],
+      "scope": ["constant.numeric", "constant.language2", "keyword.other.unit.hexadecimal"],
       "settings": {
-        // "foreground": "#004973"
+        "foreground": "#1556AF"
       }
     },
     {
       "name": "Comments",
       "scope": ["comment", "string.quoted.docstring.multi"],
       "settings": {
-        "foreground": "#889"
+        "foreground": "#8a9197"
       }
     },
     {
       "name": "JSON Key",
       "scope": ["support.type.property-name.json", "punctuation.support.type.property-name"],
       "settings": {
-        "foreground": "#111122"
+        "foreground": "#24292E"
       }
     }
   ]

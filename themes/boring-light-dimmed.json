@@ -20,7 +20,7 @@
         "storage.type.class.python"
       ],
       "settings": {
-        "foreground": "#42637a"
+        "foreground": "#30577D"
       }
     },
     {
@@ -48,7 +48,7 @@
       "name": "Numbers",
       "scope": ["constant.numeric", "constant.language", "keyword.other.unit.hexadecimal"],
       "settings": {
-        "foreground": "#42637a"
+        "foreground": "#30577D"
       }
     },
     {
