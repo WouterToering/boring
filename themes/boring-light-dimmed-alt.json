@@ -4,7 +4,7 @@
   "type": "light",
   "include": "./light-base.json",
   "colors": {
-    "editor.foreground": "#2E3440"
+    "editor.foreground": "#212121"
   },
   "tokenColors": [
     {
@@ -24,7 +24,7 @@
       ],
       "settings": {
         // "fontStyle": "bold",
-        "foreground": "#4c5a6a"
+        "foreground": "#1D5786"
       }
     },
     {

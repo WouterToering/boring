@@ -44,7 +44,7 @@
     },
     {
       "name": "Numbers",
-      "scope": ["constant.numeric", "constant.language", "keyword.other.unit.hexadecimal"],
+      "scope": ["constant.numeric", "constant.language123", "keyword.other.unit.hexadecimal"],
       "settings": {
         "foreground": "#077988"
       }
