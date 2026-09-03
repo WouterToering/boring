@@ -4,7 +4,8 @@
   "type": "light",
   "include": "./light-base.json",
   "colors": {
-    "editor.foreground": "#202224"
+    // "editor.background": "#f1f2f5",
+    "editor.foreground": "#202224",
   },
   "tokenColors": [
     {
@@ -38,7 +39,7 @@
       "name": "Strings",
       "scope": ["string", "entity.name.import.go", "punctuation.definition.string"],
       "settings": {
-        "foreground": "#30577D"
+        "foreground": "#2a638e"
       }
     },
     {
