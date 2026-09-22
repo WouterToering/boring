@@ -9,6 +9,7 @@
     "tab.activeBorder": "#f4f5f7",
     "editor.foreground": "#1D2024"
   },
+  "semanticHighlighting": false,
   "tokenColors": [
     {
       "name": "Control flow",
@@ -28,17 +29,27 @@
       }
     },
     {
+      "scope": [
+        "entity.name.function",
+        "entity.name.type",
+        "support.function.magic.python"
+      ],
+      "settings": {"foreground": "#3b5468"}
+    },
+    {
       "name": "Class+Function definition",
       "scope": [
-        "entity.name.function.go",
-        "entity.name.function.python",
-        "entity.name.type.class",
-        "entity.function"
+        "entity.name.type.class2",
+        "entity.function",
+        "meta.function-call.generic",
+        "entity.name.function.support.go",
+        "entity.name.function.decorator.python"
       ],
       "settings": {
         "foreground": "#1D5786"
       }
     },
+
     {
       "name": "Strings",
       "scope": ["string", "entity.name.import.go", "punctuation.definition.string"],
