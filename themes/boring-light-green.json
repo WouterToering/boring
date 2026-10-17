@@ -1,13 +1,10 @@
 {
   "$schema": "vscode://schemas/color-theme",
-  "name": "boring light green",
+  "name": "boring light blue",
   "type": "light",
   "include": "./light-base.json",
   "colors": {
-    "editor.background": "#f4f5f7",
-    "tab.activeBackground": "#f4f5f7",
-    "tab.activeBorder": "#f4f5f7",
-    "editor.foreground": "#0C0C0C"
+    "editor.foreground": "#1D2024"
   },
   "semanticHighlighting": false,
   "tokenColors": [
@@ -16,7 +13,6 @@
       "scope": [
         "keyword.control",
         "keyword.operator.logical",
-        // "keyword.operator",
         "storage.type.function",
         "keyword.function",
         "keyword.type",
@@ -25,7 +21,17 @@
         "storage.type.class.python"
       ],
       "settings": {
-        "fontStyle": "bold"
+        "fontStyle": "bold",
+        "foreground": "#0C4B33"
+      }
+    },
+    {
+      "scope": [
+        "keyword.operator",
+        "punctuation"
+      ],
+      "settings": {
+        "foreground": "#0C4B33"
       }
     },
     {
@@ -34,7 +40,9 @@
         "entity.name.type",
         "support.function.magic.python"
       ],
-      "settings": {"foreground": "#06576F"}
+      "settings": {
+        // "foreground": "#3b5468"
+      }
     },
     {
       "name": "Class+Function definition",
@@ -46,7 +54,7 @@
         "entity.name.function.decorator.python"
       ],
       "settings": {
-        "foreground": "#002DAA"
+        // "foreground": "#1D5786"
       }
     },
 
@@ -54,14 +62,14 @@
       "name": "Strings",
       "scope": ["string", "entity.name.import.go", "punctuation.definition.string"],
       "settings": {
-        "foreground": "#0A7217"
+        "foreground": "#55756f"
       }
     },
     {
       "name": "Numbers",
       "scope": ["constant.numeric", "constant.language2", "keyword.other.unit.hexadecimal"],
       "settings": {
-        "foreground": "#006868"
+        // "foreground": "#55756f"
       }
     },
     {

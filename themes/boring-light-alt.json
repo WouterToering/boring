@@ -1,17 +1,19 @@
 {
   "$schema": "vscode://schemas/color-theme",
-  "name": "boring light alt",
+  "name": "boring light blue",
   "type": "light",
   "include": "./light-base.json",
   "colors": {
-    "editor.foreground": "#2E3440FF"
+    "editor.foreground": "#1f2328"
   },
+  "semanticHighlighting": false,
   "tokenColors": [
     {
       "name": "Control flow",
       "scope": [
         "keyword.control",
         "keyword.operator.logical",
+        // "keyword.operator",
         "storage.type.function",
         "keyword.function",
         "keyword.type",
@@ -20,45 +22,53 @@
         "storage.type.class.python"
       ],
       "settings": {
-        "foreground": "#2966A3"
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": [
+        "entity.name.function",
+        "entity.name.type.class.python",
+      ],
+      "settings": {
+        // "foreground": "#166775"
       }
     },
     {
       "name": "Class+Function definition",
       "scope": [
-        "entity.name.function.go",
-        "entity.name.function.python",
-        "entity.name.type.class",
-        "entity.function"
+        "entity.name.type.class2",
+        "entity.function",
+        "meta.function-call.generic",
+        "entity.name.function.support.go",
+        "entity.name.function.decorator.python",
+        "meta.function.decorator.python"
       ],
       "settings": {
-        // "foreground": "#2966A3"
+        "foreground": "#1D5786"
       }
     },
+
     {
       "name": "Strings",
       "scope": ["string", "entity.name.import.go", "punctuation.definition.string"],
       "settings": {
-        "foreground": "#2F855A"
+        "foreground": "#55756f"
       }
     },
     {
       "name": "Numbers",
-      "scope": ["constant.numeric", "constant.language123", "keyword.other.unit.hexadecimal"],
+      "scope": ["constant.numeric", "constant.language2", "keyword.other.unit.hexadecimal"],
       "settings": {
-        "foreground": "#077988"
+        "foreground": "#125656"
       }
     },
     {
       "name": "Comments",
       "scope": ["comment", "string.quoted.docstring.multi"],
       "settings": {
-        "foreground": "#7e95a1"
+        "foreground": "#82858f"
       }
-    },
-    {
-      "scope": ["punctuation", "keyword.operator"],
-      "settings": {}
     },
     {
       "name": "JSON Key",

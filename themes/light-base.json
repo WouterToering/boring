@@ -2,9 +2,9 @@
   "$schema": "vscode://schemas/color-theme",
   "name": "Light Base",
   "colors": {
-    "editor.background": "#f4f5f7",
-    "tab.activeBackground": "#f4f5f7",
-    "tab.activeBorder": "#f4f5f7",
+    "editor.background": "#f7f7f7",
+    "tab.activeBackground": "#f7f7f7",
+    "tab.activeBorder": "#f7f7f7",
 
     "focusBorder": "#155db0b3",
     "foreground": "#929292",
@@ -102,7 +102,7 @@
     "editor.findMatchHighlightBackground": "#ffbb0017",
     "editor.findRangeHighlightBackground": "#ffbb0017",
     "editor.rangeHighlightBackground": "#ffbb0017",
-    "editor.lineHighlightBackground": "#00000005",
+    "editor.lineHighlightBackground": "#00000007",
     "editorLink.activeForeground": "#155db0",
     "editorWhitespace.foreground": "#92929266",
     "editorIndentGuide.background1": "#9292922e",

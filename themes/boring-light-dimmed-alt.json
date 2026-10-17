@@ -4,58 +4,82 @@
   "type": "light",
   "include": "./light-base.json",
   "colors": {
-    "editor.foreground": "#212121"
+    "editor.foreground": "#202224"
   },
+  "semanticHighlighting": false,
   "tokenColors": [
     {
       "name": "Control flow",
       "scope": [
         "keyword.control",
         "keyword.operator.logical",
-        // "keyword.operator",
         "storage.type.function",
         "keyword.function",
         "keyword.type",
         "keyword.var",
         "keyword.struct",
-        "storage.type.class.python",
-        "punctuation.definition.begin.bracket.curly",
-        "punctuation.definition.end.bracket.curly"
+        "storage.type.class.python"
       ],
       "settings": {
-        // "fontStyle": "bold",
-        "foreground": "#3882b7ff"
+        "fontStyle": "bold",
+        "foreground": "#0f748d"
+      }
+    },
+    {
+      "scope": [
+        "keyword.operator",
+        "punctuation"
+      ],
+      "settings": {
+        "foreground": "#1f6a7d",
+      }
+    },
+    {
+      "scope": [
+        "entity.name.function",
+        "entity.name.type",
+        "support.function.magic.python"
+      ],
+      "settings": {
+        // "foreground": "#3b5468"
       }
     },
     {
       "name": "Class+Function definition",
       "scope": [
-        "entity.name.function.go",
-        "entity.name.function.python",
-        "entity.name.type.class",
-        "entity.function"
+        "entity.name.type.class2",
+        "entity.function",
+        "meta.function-call.generic",
+        "entity.name.function.support.go",
+        "entity.name.function.decorator.python"
       ],
-      "settings": {}
+      "settings": {
+        // "foreground": "#1D5786"
+      }
     },
+
     {
       "name": "Strings",
       "scope": ["string", "entity.name.import.go", "punctuation.definition.string"],
       "settings": {
-        "foreground": "#55756f"
+        "foreground": "#2d626f"
       }
     },
     {
       "name": "Numbers",
       "scope": ["constant.numeric", "constant.language2", "keyword.other.unit.hexadecimal"],
       "settings": {
-        "foreground": "#4D699B"
+        // "foreground": "#55756f"
       }
     },
     {
       "name": "Comments",
-      "scope": ["comment", "string.quoted.docstring.multi"],
+      "scope": [
+        "comment", "string.quoted.docstring.multi",
+        "punctuation.definition.comment",
+        "string.quoted.docstring.multi"],
       "settings": {
-        "foreground": "#8a9197"
+        "foreground": "#82858f"
       }
     },
     {
