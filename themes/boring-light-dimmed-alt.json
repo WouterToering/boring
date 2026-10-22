@@ -22,13 +22,13 @@
       ],
       "settings": {
         "fontStyle": "bold",
-        "foreground": "#0f748d"
+        "foreground": "#425061"
       }
     },
     {
       "scope": [
         "keyword.operator",
-        "punctuation"
+        // "punctuation"
       ],
       "settings": {
         "foreground": "#1f6a7d",
@@ -62,7 +62,7 @@
       "name": "Strings",
       "scope": ["string", "entity.name.import.go", "punctuation.definition.string"],
       "settings": {
-        "foreground": "#2d626f"
+        "foreground": "#4d5d71"
       }
     },
     {

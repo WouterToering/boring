@@ -21,17 +21,17 @@
         "storage.type.class.python"
       ],
       "settings": {
-        "fontStyle": "bold",
-        "foreground": "#1D5786"
+        // "fontStyle": "bold",
+        "foreground": "#0077AA"
       }
     },
     {
       "scope": [
         "keyword.operator",
-        "punctuation"
+        // "punctuation"
       ],
       "settings": {
-        "foreground": "#1D5786",
+        "foreground": "#2c5482",
       }
     },
     {
@@ -61,14 +61,14 @@
       "name": "Strings",
       "scope": ["string", "entity.name.import.go", "punctuation.definition.string"],
       "settings": {
-        "foreground": "#39546a"
+        "foreground": "#55756f"
       }
     },
     {
       "name": "Numbers",
       "scope": ["constant.numeric", "constant.language2", "keyword.other.unit.hexadecimal"],
       "settings": {
-        // "foreground": "#55756f"
+        "foreground": "#004765"
       }
     },
     {

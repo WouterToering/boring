@@ -4,7 +4,7 @@
   "type": "light",
   "include": "./light-base.json",
   "colors": {
-    "editor.foreground": "#1D2024"
+    "editor.foreground": "#111"
   },
   "semanticHighlighting": false,
   "tokenColors": [
@@ -28,10 +28,10 @@
     {
       "scope": [
         "keyword.operator",
-        "punctuation"
+        // "punctuation"
       ],
       "settings": {
-        "foreground": "#0C4B33"
+        "foreground": "#666"
       }
     },
     {
@@ -63,6 +63,7 @@
       "scope": ["string", "entity.name.import.go", "punctuation.definition.string"],
       "settings": {
         "foreground": "#55756f"
+        // "foreground": "#222"
       }
     },
     {

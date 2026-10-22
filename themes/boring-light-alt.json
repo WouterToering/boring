@@ -4,7 +4,7 @@
   "type": "light",
   "include": "./light-base.json",
   "colors": {
-    "editor.foreground": "#1f2328"
+    "editor.foreground": "#26262B"
   },
   "semanticHighlighting": false,
   "tokenColors": [
@@ -22,7 +22,8 @@
         "storage.type.class.python"
       ],
       "settings": {
-        "fontStyle": "bold"
+        "fontStyle": "bold",
+        "foreground": "#595964"
       }
     },
     {
@@ -45,7 +46,7 @@
         "meta.function.decorator.python"
       ],
       "settings": {
-        "foreground": "#1D5786"
+        // "foreground": "#1D5786"
       }
     },
 
