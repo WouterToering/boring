@@ -4,7 +4,7 @@
   "type": "light",
   "include": "./light-base.json",
   "colors": {
-    "editor.foreground": "#26262B"
+    "editor.foreground": "#403C3A"
   },
   "semanticHighlighting": false,
   "tokenColors": [
@@ -23,7 +23,7 @@
       ],
       "settings": {
         "fontStyle": "bold",
-        "foreground": "#595964"
+        "foreground": "#246092"
       }
     },
     {
@@ -54,14 +54,14 @@
       "name": "Strings",
       "scope": ["string", "entity.name.import.go", "punctuation.definition.string"],
       "settings": {
-        "foreground": "#55756f"
+        "foreground": "#186242"
       }
     },
     {
       "name": "Numbers",
       "scope": ["constant.numeric", "constant.language2", "keyword.other.unit.hexadecimal"],
       "settings": {
-        "foreground": "#125656"
+        "foreground": "#1E50AF"
       }
     },
     {

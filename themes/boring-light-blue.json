@@ -4,7 +4,8 @@
   "type": "light",
   "include": "./light-base.json",
   "colors": {
-    "editor.foreground": "#1D2024"
+    "editor.foreground": "#2b2621",
+    // "editor.background": "#f7f7f6"
   },
   "semanticHighlighting": false,
   "tokenColors": [
@@ -21,8 +22,8 @@
         "storage.type.class.python"
       ],
       "settings": {
-        // "fontStyle": "bold",
-        "foreground": "#0077AA"
+        "fontStyle": "bold",
+        "foreground": "#375e77"
       }
     },
     {
@@ -31,7 +32,7 @@
         // "punctuation"
       ],
       "settings": {
-        "foreground": "#2c5482",
+        "foreground": "#375e77",
       }
     },
     {
@@ -57,25 +58,29 @@
         // "foreground": "#1D5786"
       }
     },
+
     {
       "name": "Strings",
       "scope": ["string", "entity.name.import.go", "punctuation.definition.string"],
       "settings": {
-        "foreground": "#55756f"
+        "foreground": "#635649"
       }
     },
     {
       "name": "Numbers",
       "scope": ["constant.numeric", "constant.language2", "keyword.other.unit.hexadecimal"],
       "settings": {
-        "foreground": "#004765"
+        "foreground": "#53483d"
       }
     },
     {
       "name": "Comments",
-      "scope": ["comment", "string.quoted.docstring.multi"],
+      "scope": [
+        "comment", "string.quoted.docstring.multi",
+        "punctuation.definition.comment",
+        "string.quoted.docstring.multi"],
       "settings": {
-        "foreground": "#82858f"
+        "foreground": "#96928c"
       }
     },
     {

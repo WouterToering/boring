@@ -4,7 +4,8 @@
   "type": "light",
   "include": "./light-base.json",
   "colors": {
-    "editor.foreground": "#202224"
+    "editor.foreground": "#26211d",
+    // "editor.background": "#f7f7f6"
   },
   "semanticHighlighting": false,
   "tokenColors": [
@@ -22,7 +23,7 @@
       ],
       "settings": {
         "fontStyle": "bold",
-        "foreground": "#425061"
+        "foreground": "#766657"
       }
     },
     {
@@ -31,7 +32,7 @@
         // "punctuation"
       ],
       "settings": {
-        "foreground": "#1f6a7d",
+        "foreground": "#766657",
       }
     },
     {
@@ -62,14 +63,14 @@
       "name": "Strings",
       "scope": ["string", "entity.name.import.go", "punctuation.definition.string"],
       "settings": {
-        "foreground": "#4d5d71"
+        "foreground": "#103650" // 083758
       }
     },
     {
       "name": "Numbers",
       "scope": ["constant.numeric", "constant.language2", "keyword.other.unit.hexadecimal"],
       "settings": {
-        // "foreground": "#55756f"
+        "foreground": "#766657"
       }
     },
     {
@@ -79,7 +80,7 @@
         "punctuation.definition.comment",
         "string.quoted.docstring.multi"],
       "settings": {
-        "foreground": "#82858f"
+        "foreground": "#96928c"
       }
     },
     {
