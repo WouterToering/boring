@@ -23,7 +23,7 @@
       ],
       "settings": {
         "fontStyle": "bold",
-        "foreground": "#766657"
+        // "foreground": "#604d3e"
       }
     },
     {
@@ -32,7 +32,7 @@
         // "punctuation"
       ],
       "settings": {
-        "foreground": "#766657",
+        // "foreground": "#375e77",
       }
     },
     {
@@ -63,14 +63,14 @@
       "name": "Strings",
       "scope": ["string", "entity.name.import.go", "punctuation.definition.string"],
       "settings": {
-        "foreground": "#103650" // 083758
+        "foreground": "#6f6d6c" 
       }
     },
     {
       "name": "Numbers",
       "scope": ["constant.numeric", "constant.language2", "keyword.other.unit.hexadecimal"],
       "settings": {
-        "foreground": "#766657"
+        "foreground": "#6f6d6c"
       }
     },
     {
@@ -80,7 +80,7 @@
         "punctuation.definition.comment",
         "string.quoted.docstring.multi"],
       "settings": {
-        "foreground": "#96928c"
+        "foreground": "#26211d75"
       }
     },
     {

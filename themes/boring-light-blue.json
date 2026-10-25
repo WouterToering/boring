@@ -23,7 +23,7 @@
       ],
       "settings": {
         "fontStyle": "bold",
-        "foreground": "#375e77"
+        "foreground": "#A11212"
       }
     },
     {
@@ -63,14 +63,14 @@
       "name": "Strings",
       "scope": ["string", "entity.name.import.go", "punctuation.definition.string"],
       "settings": {
-        "foreground": "#635649"
+        "foreground": "#646464"
       }
     },
     {
       "name": "Numbers",
       "scope": ["constant.numeric", "constant.language2", "keyword.other.unit.hexadecimal"],
       "settings": {
-        "foreground": "#53483d"
+        "foreground": "#375e77"
       }
     },
     {
