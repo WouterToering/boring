@@ -63,14 +63,14 @@
       "name": "Strings",
       "scope": ["string", "entity.name.import.go", "punctuation.definition.string"],
       "settings": {
-        "foreground": "#6f6d6c" 
+        "foreground": "#55756f" 
       }
     },
     {
       "name": "Numbers",
       "scope": ["constant.numeric", "constant.language2", "keyword.other.unit.hexadecimal"],
       "settings": {
-        "foreground": "#6f6d6c"
+        "foreground": "#186242"
       }
     },
     {

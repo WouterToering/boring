@@ -22,7 +22,7 @@
         "storage.type.class.python"
       ],
       "settings": {
-        "fontStyle": "bold",
+        // "fontStyle": "bold",
         "foreground": "#A11212"
       }
     },
